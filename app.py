@@ -229,7 +229,11 @@ def load_overall_analysis():
             st.metric('revenue','rs 3L','3%')
 
 
+# ***********************************************************************************************
 
+# ***************************       'DROPDOWN ANALYSIS'        ***********************************
+
+# ***********************************************************************************************
 
 
 def load_dropdown_analysis(option_year,option_priority,option_issue_type):
@@ -239,33 +243,104 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
 
     
 
+    #print('asdf:', option_issue_type, option_priority)
+    drop_down_analysis=ticket_df[(ticket_df['Issue Type'].isin(option_issue_type))& (ticket_df['Priority'].isin(option_priority)) & (ticket_df['year'].isin(option_year))]
+
+    st.dataframe(drop_down_analysis)
 
 
-# use diff col to display these matrix in the columns
-    col1,col2=st.columns(2)
+    # *********************************  logic  *****************************************************
 
-    with col1:
-        st.metric('revenue','rs 3L','3%')
-        #total_count=ticket_df[(ticket_df['Priority']==option_priority)].count().values[0]
-        #st.metric('Total count',total_count)
-        #print(total_count)
+    status_wise_year_count=ticket_df[ticket_df['year'].isin(option_year)].groupby('Status')['Ticket No'].count()
+    status_wise_year_priority_issue_type_count=ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type)].groupby('Status')['Ticket No'].count()
+    delay_day_count_category_wise=ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type)].groupby('Category')['dealay_days'].count()
+    # year wise total status
+
+    col3,col4 = st.columns(2)
+    with col3:
+        st.title('year wise status')
+        fig3,ax3=plt.subplots(figsize=(2, 2))
+        ax3.pie(status_wise_year_count,labels=status_wise_year_count.index,autopct="%0.01f%%",radius=1, textprops={'fontsize': 5})
+        st.pyplot(fig3)
+
+
+    with col4:
+        # Sample data
+
+        st.title(' status count')
+        fig6,ax6=plt.subplots(figsize=(2, 2))
+        ax6.pie(status_wise_year_priority_issue_type_count,labels=status_wise_year_priority_issue_type_count.index,autopct="%0.01f%%",radius=1, textprops={'fontsize': 5})
+       
+        st.pyplot(fig6)
+
+        
     
-    with col2:
+    #print("status_wise_year_priority_issue_type_count",status_wise_year_priority_issue_type_count)
+
+
+    col5,col6 = st.columns(2)
+
+    with col5:
+        ticket_hist= ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type)].groupby('Category')['dealay_days'].count()
+        # Create a histogram with 20 bins
+        ticket_hist=pd.DataFrame(ticket_hist)
+        #ticket_hist = ticket_hist.set_index('Category')
+        st.title('Ticket delay time')
+        st.bar_chart(ticket_hist)
+        
+
+    with col6:
+        st.title(' Delay count')
+        fig7,ax7=plt.subplots(figsize=(2, 2))
+        ax7.pie(delay_day_count_category_wise,labels=delay_day_count_category_wise.index,autopct="%0.01f%%",radius=1, textprops={'fontsize': 5})
+       
+        st.pyplot(fig7)
+        
+
+    # logic
+
+    ticket_year_count=ticket_df[ticket_df['year'].isin(option_year)].groupby('year')['Ticket No'].count()
+
+
+    col7,col8 = st.columns(2)
+    with col7:
         st.metric('revenue','rs 3L','3%')
 
+    with col8:
+        
+        # Create a histogram with 20 bins
+        ticket_year_count=pd.DataFrame(ticket_year_count)
+        #ticket_hist = ticket_hist.set_index('Category')
+        st.title('Ticket year count')
+        st.bar_chart(ticket_year_count)
+    
 
-    df=ticket_df[(ticket_df['Issue Type']==option_issue_type)& (ticket_df['Priority']==option_priority)]
+        
 
-    st.dataframe(df)
+
 
 
 
 
 
 # ****************************************************************************************************
+
+# begin from here
+
+
+
 ticket_df=pd.read_excel(r"C:\Users\Ratan Kumar Jha\Desktop\accenture_ticket\Accenture tickets.xlsx")
 ticket_df['year']=ticket_df['Date / Time'].dt.year
 ticket_df['Status']=ticket_df['Status'].replace(['Closed'], 'Resolved')
+ticket_df['dealay_days']=(ticket_df['Resolve Date'] - ticket_df['Due Date']).dt.days
+ticket_df.loc[ticket_df['dealay_days'] < 1, 'dealay_days'] = 0
+ticket_df['dealay_days'] = ticket_df['dealay_days'].fillna(-5)
+ticket_df['Category']=ticket_df['dealay_days'].apply(lambda x: 
+    'In Process or Open' if x == -5 else(
+    'No delay' if x == 0 else(
+    'less than 6 days' if x < 5 else (
+    'less than 10 days' if x < 10 else (
+    'less than 20 days' if x < 21 else 'more than 20 days')))))
 #ticket_df['year'] = pd.to_datetime(ticket_df['year'])
 
 st.sidebar.title('Accenture tickets')
@@ -273,7 +348,7 @@ st.sidebar.title('Accenture tickets')
 st.sidebar.image('Électricité_de_France.svg.png')
 
 #-------------------------------------------------------------------
-st.sidebar.header('drop down analysis')
+#st.sidebar.header('drop down analysis')
 
 option=st.sidebar.selectbox('select ',['overall analysis','drop down analysis'])
 
@@ -283,11 +358,11 @@ if option == 'overall analysis':
 
 else:
 
-    option_year = st.sidebar.selectbox('select year',ticket_df['Date / Time'].dt.year.unique().tolist())
+    option_year = st.sidebar.multiselect('select year',ticket_df['Date / Time'].dt.year.unique().tolist())
 
-    option_priority = st.sidebar.selectbox('select priority',ticket_df['Priority'].unique().tolist())
+    option_priority = st.sidebar.multiselect('select priority',ticket_df['Priority'].unique().tolist())
 
-    option_issue_type = st.sidebar.selectbox('select issue type',ticket_df['Issue Type'].unique().tolist())
+    option_issue_type = st.sidebar.multiselect('select issue type',ticket_df['Issue Type'].unique().tolist())
 
     btn1=st.sidebar.button('find ticket detail')
 
