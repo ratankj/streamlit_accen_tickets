@@ -239,14 +239,11 @@ def load_overall_analysis():
 def load_dropdown_analysis(option_year,option_priority,option_issue_type):
     st.title('Ticket  Analysis')
 
-    st.subheader('DROPDOWN ANALYSIS')
+    #st.subheader('DROPDOWN ANALYSIS')
 
     
 
-    #print('asdf:', option_issue_type, option_priority)
-    drop_down_analysis=ticket_df[(ticket_df['Issue Type'].isin(option_issue_type))& (ticket_df['Priority'].isin(option_priority)) & (ticket_df['year'].isin(option_year))]
-
-    st.dataframe(drop_down_analysis)
+   
 
 
     # *********************************  logic  *****************************************************
@@ -300,11 +297,20 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
     # logic
 
     ticket_year_count=ticket_df[ticket_df['year'].isin(option_year)].groupby('year')['Ticket No'].count()
+    year_line_chart = ticket_df[ticket_df['year'].isin(option_year)].groupby('YearMonth')['Ticket No'].count()
 
+
+
+    year_line_chart=pd.DataFrame(year_line_chart)
+        #year_line_chart.set_index('YearMonth', inplace=True)
+    st.title('Line Chart of Counts by YearMonth')
+    st.line_chart(year_line_chart)
 
     col7,col8 = st.columns(2)
     with col7:
+
         st.metric('revenue','rs 3L','3%')
+
 
     with col8:
         
@@ -315,6 +321,23 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
         st.bar_chart(ticket_year_count)
     
 
+
+     # dataframe
+    st.title('Data frame')
+    drop_down_data_csv=ticket_df[(ticket_df['Issue Type'].isin(option_issue_type))& (ticket_df['Priority'].isin(option_priority)) & (ticket_df['year'].isin(option_year))]
+    st.dataframe(drop_down_data_csv)
+
+   
+
+    # CSV Download Link
+    csv_data = drop_down_data_csv.to_csv().encode()
+    st.download_button(
+    label="Download CSV",
+    data=csv_data,
+    key="download-csv",
+    file_name="data.csv",
+    mime="text/csv",
+    )
         
 
 
@@ -341,6 +364,10 @@ ticket_df['Category']=ticket_df['dealay_days'].apply(lambda x:
     'less than 6 days' if x < 5 else (
     'less than 10 days' if x < 10 else (
     'less than 20 days' if x < 21 else 'more than 20 days')))))
+
+ticket_df['YearMonth'] = ticket_df['Date / Time'].dt.strftime('%Y-%m')
+
+
 #ticket_df['year'] = pd.to_datetime(ticket_df['year'])
 
 st.sidebar.title('Accenture tickets')
