@@ -33,6 +33,13 @@ def load_overall_analysis():
 
     st.header('OVERALL ANALYSIS')
 
+        
+# *********************************************************************************************
+
+#----------------------------------------   ISSUE TYPE ANALYSIS  -----------------------------
+
+# *********************************************************************************************
+
     st.subheader('PRIORITY ANALYSIS')
 
     low_Priority=ticket_df[ticket_df['Priority']=='Low'].count().values[0]
@@ -210,23 +217,50 @@ def load_overall_analysis():
 
     
 
-#--------------------------
-
-#--------------------------------------
+#------------------------------------------------------------------------------------------------
+#  *******************************     year wise analysis   **************************************
+#-------------------------------------------------------------------------------------------------
 
     st.subheader('YEAR WISE ANALYSIS')
     #st.selectbox('select year',ticket_df['year'].unique().tolist())
+    
     selected_option=st.selectbox('Select year',ticket_df['Date / Time'].dt.year.unique().tolist())
 
-    if selected_option =='Total':
-        col1,col2=st.columns(2)
+    # year line chart 
+    year_wise_line_chart = ticket_df[ticket_df['year']==selected_option].groupby('YearMonth')['Ticket No'].count()
+    # line chart
 
-        with col1:
-            st.metric('revenue','rs 3L','3%')
-           
-        
-        with col2:
-            st.metric('revenue','rs 3L','3%')
+    year_wise_line_chart=pd.DataFrame(year_wise_line_chart)
+    #year_line_chart.set_index('YearMonth', inplace=True)
+    st.title('Line Chart of Counts by YearMonth')
+    st.line_chart(year_wise_line_chart)
+
+
+    
+
+
+    status_count_per_year=ticket_df[ticket_df['year']==selected_option].groupby('Status')['Ticket No'].count()
+
+    col3,col4 = st.columns(2)
+    with col3:
+        st.title('year wise status')
+        fig3,ax3=plt.subplots(figsize=(2, 2))
+        ax3.pie(status_count_per_year,labels=status_count_per_year.index,autopct="%0.01f%%",radius=1, textprops={'fontsize': 5})
+        st.pyplot(fig3)
+
+    with col4:
+        # delay histogram
+        year_wise_Delay_hist= ticket_df[ticket_df['year']==selected_option].groupby('Category')['dealay_days'].count()
+        # Create a histogram with 20 bins
+        year_wise_Delay_hist=pd.DataFrame(year_wise_Delay_hist)
+        #ticket_hist = ticket_hist.set_index('Category')
+        st.title('Year wise delay ')
+        st.bar_chart(year_wise_Delay_hist)
+
+
+
+
+
 
 
 # ***********************************************************************************************
@@ -274,6 +308,7 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
     
     #print("status_wise_year_priority_issue_type_count",status_wise_year_priority_issue_type_count)
 
+    # delay histogram and pie chart
 
     col5,col6 = st.columns(2)
 
@@ -300,11 +335,14 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
     year_line_chart = ticket_df[ticket_df['year'].isin(option_year)].groupby('YearMonth')['Ticket No'].count()
 
 
+    # line chart
 
     year_line_chart=pd.DataFrame(year_line_chart)
-        #year_line_chart.set_index('YearMonth', inplace=True)
+    #year_line_chart.set_index('YearMonth', inplace=True)
     st.title('Line Chart of Counts by YearMonth')
     st.line_chart(year_line_chart)
+
+
 
     col7,col8 = st.columns(2)
     with col7:
@@ -329,7 +367,8 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
 
    
 
-    # CSV Download Link
+    # CSV Download button
+
     csv_data = drop_down_data_csv.to_csv().encode()
     st.download_button(
     label="Download CSV",
