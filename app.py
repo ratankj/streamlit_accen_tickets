@@ -36,7 +36,7 @@ def load_overall_analysis():
         
 # *********************************************************************************************
 
-#----------------------------------------   ISSUE TYPE ANALYSIS  -----------------------------
+#----------------------------------------   PRIORITY ANALYSIS  -----------------------------
 
 # *********************************************************************************************
 
@@ -200,6 +200,7 @@ def load_overall_analysis():
 
             # Display the plot in Streamlit
         st.pyplot(fig9)
+        
     
     with col5:
         fig10,ax10=plt.subplots(figsize=(2, 3))
@@ -282,28 +283,6 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
 
     # *********************************  logic  *****************************************************
 
-    status_wise_year_count=ticket_df[ticket_df['year'].isin(option_year)].groupby('Status')['Ticket No'].count()
-    status_wise_year_priority_issue_type_count=ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type)].groupby('Status')['Ticket No'].count()
-    delay_day_count_category_wise=ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type)].groupby('Category')['dealay_days'].count()
-    # year wise total status
-
-    col3,col4 = st.columns(2)
-    with col3:
-        st.title('year wise status')
-        fig3,ax3=plt.subplots(figsize=(2, 2))
-        ax3.pie(status_wise_year_count,labels=status_wise_year_count.index,autopct="%0.01f%%",radius=1, textprops={'fontsize': 5})
-        st.pyplot(fig3)
-
-
-    with col4:
-        # Sample data
-
-        st.title(' status count')
-        fig6,ax6=plt.subplots(figsize=(2, 2))
-        ax6.pie(status_wise_year_priority_issue_type_count,labels=status_wise_year_priority_issue_type_count.index,autopct="%0.01f%%",radius=1, textprops={'fontsize': 5})
-       
-        st.pyplot(fig6)
-
         
     
     #print("status_wise_year_priority_issue_type_count",status_wise_year_priority_issue_type_count)
@@ -317,47 +296,160 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
         # Create a histogram with 20 bins
         ticket_hist=pd.DataFrame(ticket_hist)
         #ticket_hist = ticket_hist.set_index('Category')
-        st.title('Ticket delay time')
+        st.subheader('Ticket delay time')
         st.bar_chart(ticket_hist)
         
 
     with col6:
-        st.title(' Delay count')
-        fig7,ax7=plt.subplots(figsize=(2, 2))
-        ax7.pie(delay_day_count_category_wise,labels=delay_day_count_category_wise.index,autopct="%0.01f%%",radius=1, textprops={'fontsize': 5})
-       
-        st.pyplot(fig7)
+        ticket_year_count=ticket_df[ticket_df['year'].isin(option_year)].groupby('year')['Ticket No'].count()
+        # Create a histogram with 20 bins
+        ticket_year_count=pd.DataFrame(ticket_year_count)
+        #ticket_hist = ticket_hist.set_index('Category')
+        st.markdown('Ticket year count')
+        st.bar_chart(ticket_year_count)
         
 
     # logic
 
-    ticket_year_count=ticket_df[ticket_df['year'].isin(option_year)].groupby('year')['Ticket No'].count()
-    year_line_chart = ticket_df[ticket_df['year'].isin(option_year)].groupby('YearMonth')['Ticket No'].count()
+    
+    
+   
 
+    
+
+
+#***********************************************************************************************
 
     # line chart
 
-    year_line_chart=pd.DataFrame(year_line_chart)
+    #year_line_chart = ticket_df[ticket_df['year'].isin(option_year)].groupby('YearMonth')['Ticket No'].count()
+
+    #year_line_chart=pd.DataFrame(year_line_chart)
     #year_line_chart.set_index('YearMonth', inplace=True)
-    st.title('Line Chart of Counts by YearMonth')
-    st.line_chart(year_line_chart)
+    #st.title('Line Chart of Counts by YearMonth')
+    #st.line_chart(year_line_chart)
 
 
 
-    col7,col8 = st.columns(2)
-    with col7:
+#***********************************************************************************************
+    #bar chart
 
-        st.metric('revenue','rs 3L','3%')
+    yr_qtr_bar_chart = ticket_df[ticket_df['year'].isin(option_year)].groupby('yr_qtr')['Ticket No'].count()
+
+    yr_qtr_bar_chart=pd.DataFrame(yr_qtr_bar_chart)
+    st.markdown('Ticket year qtr count')
+    st.bar_chart(yr_qtr_bar_chart)
 
 
-    with col8:
-        
-        # Create a histogram with 20 bins
-        ticket_year_count=pd.DataFrame(ticket_year_count)
-        #ticket_hist = ticket_hist.set_index('Category')
-        st.title('Ticket year count')
-        st.bar_chart(ticket_year_count)
+#***********************************************************************************************
+  
+# stacked bar chart   priority wise
+
+    qtr_wise_stacked_bar_chart=ticket_df[ticket_df['year'].isin(option_year)].groupby(['year','yr_qtr','Priority'])['Ticket No'].count()
+    qtr_wise_stacked_bar_chart=pd.DataFrame(qtr_wise_stacked_bar_chart)
+    qtr_wise_stacked_bar_chart=qtr_wise_stacked_bar_chart.reset_index()
+   
+    fig = px.bar(qtr_wise_stacked_bar_chart, x='yr_qtr', y='Ticket No', color='Priority',
+                labels={'Ticket No': 'Category Value'},
+                title='Stacked Bar Chart of Categories by Year')
     
+    # Add hover data for tooltips
+    fig.update_traces(texttemplate='%{y}', textposition='outside')
+
+    # Display the chart in Streamlit
+    st.plotly_chart(fig)
+
+
+#***********************************************************************************************
+    # stacked bar chart status wise :  this will show year wise selected data
+    
+    qtr_wise_status_bar_chart=ticket_df[ticket_df['year'].isin(option_year)].groupby(['year','yr_qtr','Status'])['Ticket No'].count()
+    qtr_wise_status_bar_chart=pd.DataFrame(qtr_wise_status_bar_chart)
+    qtr_wise_status_bar_chart=qtr_wise_status_bar_chart.reset_index()
+    
+    fig1 = px.bar(qtr_wise_status_bar_chart, x='yr_qtr', y='Ticket No', color='Status',
+                labels={'Ticket No': 'Category Value'},
+                title='Stacked Bar Chart of status by Year')
+    
+    # Add hover data for tooltips
+    fig1.update_traces(texttemplate='%{y}', textposition='outside')
+
+    # Display the chart in Streamlit
+    st.plotly_chart(fig1)
+ 
+
+
+#***********************************************************************************************
+
+
+# stacked bar chart   drop down bases
+
+    qtr_wise_priority_issue_stacked_bar_chart=ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type)].groupby(['year','yr_qtr','Priority'])['Ticket No'].count()
+    qtr_wise_priority_issue_stacked_bar_chart=pd.DataFrame(qtr_wise_priority_issue_stacked_bar_chart)
+    qtr_wise_priority_issue_stacked_bar_chart=qtr_wise_priority_issue_stacked_bar_chart.reset_index()
+   
+    fig = px.bar(qtr_wise_priority_issue_stacked_bar_chart, x='yr_qtr', y='Ticket No', color='Priority',
+                labels={'Ticket No': 'Category Value'},
+                title='Stacked Bar Chart as per dropdown')
+    
+    # Add hover data for tooltips
+    fig.update_traces(texttemplate='%{y}', textposition='outside')
+
+    # Display the chart in Streamlit
+    st.plotly_chart(fig)
+
+
+
+
+ #***********************************************************************************************
+    # stacked bar chart 
+    
+    qtr_wise_priority_issue_status_bar_chart=ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type)].groupby(['year','yr_qtr','Status'])['Ticket No'].count()
+    qtr_wise_priority_issue_status_bar_chart=pd.DataFrame(qtr_wise_priority_issue_status_bar_chart)
+    qtr_wise_priority_issue_status_bar_chart=qtr_wise_priority_issue_status_bar_chart.reset_index()
+    
+    fig1 = px.bar(qtr_wise_priority_issue_status_bar_chart, x='yr_qtr', y='Ticket No', color='Status',
+                labels={'Ticket No': 'Category Value'},
+                title='status Stacked Bar Chart as per dropdown')
+    
+    # Add hover data for tooltips
+    fig1.update_traces(texttemplate='%{y}', textposition='outside')
+
+    # Display the chart in Streamlit
+    st.plotly_chart(fig1)
+
+
+#***********************************************************************************************
+
+# **************************************************************************************************
+
+
+
+    status_wise_year_count=ticket_df[ticket_df['year'].isin(option_year)].groupby('Status')['Ticket No'].count()
+    status_wise_year_priority_issue_type_count=ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type)].groupby('Status')['Ticket No'].count()
+    delay_day_count_category_wise=ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type)].groupby('Category')['dealay_days'].count()
+    # year wise total status
+
+    col3,col4 = st.columns(2)
+    with col3:
+        st.write('year wise status')
+        fig3,ax3=plt.subplots(figsize=(2, 2))
+        ax3.pie(status_wise_year_count,labels=status_wise_year_count.index,autopct="%0.01f%%",radius=1, textprops={'fontsize': 5})
+        st.pyplot(fig3)
+
+
+    with col4:
+        # Sample data
+
+        st.write(' status count')
+        fig6,ax6=plt.subplots(figsize=(2, 2))
+        ax6.pie(status_wise_year_priority_issue_type_count,labels=status_wise_year_priority_issue_type_count.index,autopct="%0.01f%%",radius=0.9, textprops={'fontsize': 5})
+       
+        st.pyplot(fig6)
+
+
+#**************************************************************************************************
+   
 
 
      # dataframe
@@ -393,6 +485,7 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
 
 ticket_df=pd.read_excel(r"C:\Users\Ratan Kumar Jha\Desktop\accenture_ticket\Accenture tickets.xlsx")
 ticket_df['year']=ticket_df['Date / Time'].dt.year
+#ticket_df['year'] = ticket_df['year'].astype(str)
 ticket_df['Status']=ticket_df['Status'].replace(['Closed'], 'Resolved')
 ticket_df['dealay_days']=(ticket_df['Resolve Date'] - ticket_df['Due Date']).dt.days
 ticket_df.loc[ticket_df['dealay_days'] < 1, 'dealay_days'] = 0
@@ -405,9 +498,34 @@ ticket_df['Category']=ticket_df['dealay_days'].apply(lambda x:
     'less than 20 days' if x < 21 else 'more than 20 days')))))
 
 ticket_df['YearMonth'] = ticket_df['Date / Time'].dt.strftime('%Y-%m')
+#ticket_df['Year_new'] = pd.to_datetime(ticket_df['Date / Time'], format='%Y')
+# Extract the quarter and create a new column
+#ticket_df['Quarter'] = ticket_df['Year_new'].dt.quarter
+#ticket_df['Quarter'] = ticket_df['Quarter'].astype(str)
+#ticket_df['yr_qtr']=ticket_df['year']+ '-' +ticket_df['Quarter']
+# Convert the 'Year' column to datetime objects
+
+ticket_df['Year_new'] = pd.to_datetime(ticket_df['Date / Time'], format='%Y')
+# Extract the year and quarter
+ticket_df['Year_new'] = ticket_df['Year_new'].dt.year
+#ticket_df['Quarter_new_new_check'] = ticket_df['Year_alpha'].index.to_series().add(1)
+# Extract the quarter and create a new column
+ticket_df['Quarter'] = ticket_df['Date / Time'].dt.quarter
+# Create a custom function to format the year and quarter
+
+def format_year_quarter(row):
+    return f"{row['Year_new']}-Q{row['Quarter']}"
+
+# Apply the custom function to create the 'YearQuarter' column
+ticket_df['yr_qtr'] = ticket_df.apply(format_year_quarter, axis=1)
 
 
-#ticket_df['year'] = pd.to_datetime(ticket_df['year'])
+
+
+
+
+
+
 
 st.sidebar.title('Accenture tickets')
 
