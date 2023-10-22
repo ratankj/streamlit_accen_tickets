@@ -275,9 +275,48 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
     st.title('Ticket  Analysis')
 
     #st.subheader('DROPDOWN ANALYSIS')
+    #**********************************************************************************************
+    st.subheader('Year wise metric')
+    total_ticket_2021=ticket_df[ticket_df['year']==2021].count().values[0]
+    total_ticket_2022=ticket_df[ticket_df['year']==2022].count().values[0]
+    total_ticket_2023=ticket_df[ticket_df['year']==2023].count().values[0]
+
+    col1,col2,col3=st.columns(3)
+    with col1:
+        st.metric('2021',str(round(total_ticket_2021)))
+
+    with col2:
+        st.metric('2022',str(round(total_ticket_2022)))
+
+    with col3:
+        st.metric('2023',str(round(total_ticket_2023)))
 
     
+    #**********************************************************************************************
+    st.subheader('Priority metric')
 
+    low_Priority=ticket_df[ticket_df['Priority']=='Low'].count().values[0]
+
+    medium_Priority=ticket_df[ticket_df['Priority']=='Medium'].count().values[0]
+
+    high_Priority=ticket_df[ticket_df['Priority']=='High'].count().values[0]
+
+    urgent_Priority=ticket_df[ticket_df['Priority']=='Urgent'].count().values[0]
+
+
+    col1,col2,col3,col4=st.columns(4)
+
+    with col1:
+        st.metric('Low',str(round(low_Priority)))
+
+    with col2:
+        st.metric('medium',str(round(medium_Priority)))
+
+    with col3:
+        st.metric('High',str(round(high_Priority)))
+
+    with col4:
+        st.metric('Urgent',str(round(urgent_Priority)))
    
 
 
@@ -331,9 +370,14 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
 #***********************************************************************************************
     st.subheader('YEAR WISE ANALYSIS')
 #***********************************************************************************************
-    #bar chart
     
 
+
+    
+
+    #******************************************************************************************
+    
+    #bar chart
     yr_qtr_bar_chart = ticket_df[ticket_df['year'].isin(option_year)].groupby('yr_qtr')['Ticket No'].count()
 
     yr_qtr_bar_chart=pd.DataFrame(yr_qtr_bar_chart)
