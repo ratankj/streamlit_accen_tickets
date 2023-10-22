@@ -288,16 +288,15 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
     #print("status_wise_year_priority_issue_type_count",status_wise_year_priority_issue_type_count)
 
     # delay histogram and pie chart
+    status_wise_year_count=ticket_df[ticket_df['year'].isin(option_year)].groupby('Status')['Ticket No'].count()
 
     col5,col6 = st.columns(2)
 
     with col5:
-        ticket_hist= ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type)].groupby('Category')['dealay_days'].count()
-        # Create a histogram with 20 bins
-        ticket_hist=pd.DataFrame(ticket_hist)
-        #ticket_hist = ticket_hist.set_index('Category')
-        st.subheader('Ticket delay time')
-        st.bar_chart(ticket_hist)
+        st.write('year wise status')
+        fig3,ax3=plt.subplots(figsize=(2, 2))
+        ax3.pie(status_wise_year_count,labels=status_wise_year_count.index,autopct="%0.01f%%",radius=1, textprops={'fontsize': 5})
+        st.pyplot(fig3)
         
 
     with col6:
@@ -329,10 +328,11 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
     #st.title('Line Chart of Counts by YearMonth')
     #st.line_chart(year_line_chart)
 
-
-
+#***********************************************************************************************
+    st.subheader('YEAR WISE ANALYSIS')
 #***********************************************************************************************
     #bar chart
+    
 
     yr_qtr_bar_chart = ticket_df[ticket_df['year'].isin(option_year)].groupby('yr_qtr')['Ticket No'].count()
 
@@ -380,7 +380,8 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
 
 
 #***********************************************************************************************
-
+    st.subheader('AS PER DROP DOWN ANALYSIS')
+#***********************************************************************************************
 
 # stacked bar chart   drop down bases
 
@@ -425,17 +426,21 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
 
 
 
-    status_wise_year_count=ticket_df[ticket_df['year'].isin(option_year)].groupby('Status')['Ticket No'].count()
+
     status_wise_year_priority_issue_type_count=ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type)].groupby('Status')['Ticket No'].count()
     delay_day_count_category_wise=ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type)].groupby('Category')['dealay_days'].count()
     # year wise total status
 
     col3,col4 = st.columns(2)
     with col3:
-        st.write('year wise status')
-        fig3,ax3=plt.subplots(figsize=(2, 2))
-        ax3.pie(status_wise_year_count,labels=status_wise_year_count.index,autopct="%0.01f%%",radius=1, textprops={'fontsize': 5})
-        st.pyplot(fig3)
+        ticket_hist= ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type)].groupby('Category')['dealay_days'].count()
+        # Create a histogram with 20 bins
+        ticket_hist=pd.DataFrame(ticket_hist)
+        #ticket_hist = ticket_hist.set_index('Category')
+        st.subheader('Ticket delay time')
+        st.bar_chart(ticket_hist)
+        
+        
 
 
     with col4:
