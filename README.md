@@ -40,3 +40,13 @@ i need simple analysis from the tickets that what issues have been cropping up s
 
 
 5. drop down on the basis of date of resolved 
+
+
+# ************************************************************************************************
+# how to run
+
+1. conda activate venv/
+2. pip install -r requirements.txt
+3. streamlit run app.py
+
+# ************************************************************************************************
