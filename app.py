@@ -271,6 +271,9 @@ def load_overall_analysis():
 # ***********************************************************************************************
 
 
+
+
+
 def load_dropdown_analysis(option_year,option_priority,option_issue_type):
     st.title('Ticket  Analysis')
 
@@ -332,11 +335,14 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
     # delay histogram and pie chart
     status_wise_year_count=ticket_df[ticket_df['year'].isin(option_year)].groupby('Status')['Ticket No'].count()
 
+
     col5,col6 = st.columns(2)
 
     with col5:
-        st.write('year wise status')
-        st.markdown('year wise status')
+        
+        
+        st.markdown("**Year wise status**")
+        st.write(' ')
         fig3,ax3=plt.subplots(figsize=(2, 2))
         ax3.pie(status_wise_year_count,labels=status_wise_year_count.index,autopct="%0.01f%%",radius=1, textprops={'fontsize': 5})
         st.pyplot(fig3)
@@ -347,7 +353,7 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
         # Create a histogram with 20 bins
         ticket_year_count=pd.DataFrame(ticket_year_count)
         #ticket_hist = ticket_hist.set_index('Category')
-        st.markdown('Ticket year count')
+        st.markdown("**Ticket count per year**")
         st.bar_chart(ticket_year_count)
         
 
@@ -385,7 +391,7 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
     yr_qtr_bar_chart = ticket_df[ticket_df['year'].isin(option_year)].groupby('yr_qtr')['Ticket No'].count()
 
     yr_qtr_bar_chart=pd.DataFrame(yr_qtr_bar_chart)
-    st.markdown('Ticket year qtr count')
+    st.markdown("**Ticket year qtr count**")
     st.bar_chart(yr_qtr_bar_chart)
 
 
