@@ -322,6 +322,9 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
 
     # *********************************  logic  *****************************************************
 
+    st.subheader('YEAR WISE ANALYSIS')
+
+    # ***********************************************************************************************
         
     
     #print("status_wise_year_priority_issue_type_count",status_wise_year_priority_issue_type_count)
@@ -333,6 +336,7 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
 
     with col5:
         st.write('year wise status')
+        st.markdown('year wise status')
         fig3,ax3=plt.subplots(figsize=(2, 2))
         ax3.pie(status_wise_year_count,labels=status_wise_year_count.index,autopct="%0.01f%%",radius=1, textprops={'fontsize': 5})
         st.pyplot(fig3)
@@ -368,7 +372,7 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
     #st.line_chart(year_line_chart)
 
 #***********************************************************************************************
-    st.subheader('YEAR WISE ANALYSIS')
+    
 #***********************************************************************************************
     
 
