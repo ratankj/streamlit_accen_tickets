@@ -542,7 +542,7 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
 
 
 
-ticket_df=pd.read_excel(r"C:\Users\Ratan Kumar Jha\Desktop\accenture_ticket\Accenture tickets.xlsx")
+ticket_df=pd.read_excel(r"C:\EDF_CODE_AUTOMATION_PYTHON\streamlit_accen_tickets\Accenture tickets.xlsx")
 ticket_df['year']=ticket_df['Date / Time'].dt.year
 #ticket_df['year'] = ticket_df['year'].astype(str)
 ticket_df['Status']=ticket_df['Status'].replace(['Closed'], 'Resolved')
