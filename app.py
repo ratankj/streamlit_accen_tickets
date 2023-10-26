@@ -274,7 +274,7 @@ def load_overall_analysis():
 
 
 
-def load_dropdown_analysis(option_year,option_priority,option_issue_type):
+def load_dropdown_analysis(option_year,option_issue_type):
     st.title('Ticket  Analysis')
 
     #st.subheader('DROPDOWN ANALYSIS')
@@ -294,17 +294,22 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
     with col3:
         st.metric('2023',str(round(total_ticket_2023)))
 
-    
+
+    #**********************************************************************************************
+    st.header('')
+    st.header('YEAR WISE ANALYSIS')
+    st.header('')
+
     #**********************************************************************************************
     st.subheader('Priority metric')
 
-    low_Priority=ticket_df[ticket_df['Priority']=='Low'].count().values[0]
+    low_Priority=ticket_df[(ticket_df['Priority']=='Low') & (ticket_df['year'].isin(option_year))].count().values[0]
 
-    medium_Priority=ticket_df[ticket_df['Priority']=='Medium'].count().values[0]
+    medium_Priority=ticket_df[(ticket_df['Priority']=='Medium') & (ticket_df['year'].isin(option_year))].count().values[0]
 
-    high_Priority=ticket_df[ticket_df['Priority']=='High'].count().values[0]
+    high_Priority=ticket_df[(ticket_df['Priority']=='High') & (ticket_df['year'].isin(option_year))].count().values[0]
 
-    urgent_Priority=ticket_df[ticket_df['Priority']=='Urgent'].count().values[0]
+    urgent_Priority=ticket_df[(ticket_df['Priority']=='Urgent') & (ticket_df['year'].isin(option_year))].count().values[0]
 
 
     col1,col2,col3,col4=st.columns(4)
@@ -322,10 +327,8 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
         st.metric('Urgent',str(round(urgent_Priority)))
    
 
+    st.header('')
 
-    # *********************************  logic  *****************************************************
-
-    st.subheader('YEAR WISE ANALYSIS')
 
     # ***********************************************************************************************
         
@@ -382,70 +385,96 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
 #***********************************************************************************************
     
 
-
     
+    #***********************************************************************************************
+    
+    option=st.selectbox('select ',['Quater wise analysis','Priority wise analysis','Status wise analysis'])
 
     #******************************************************************************************
     
     #bar chart
-    yr_qtr_bar_chart = ticket_df[ticket_df['year'].isin(option_year)].groupby('yr_qtr')['Ticket No'].count()
+    if option == 'Quater wise analysis':
 
-    yr_qtr_bar_chart=pd.DataFrame(yr_qtr_bar_chart)
-    st.markdown("**Ticket year qtr count**")
-    st.bar_chart(yr_qtr_bar_chart)
+        yr_qtr_bar_chart = ticket_df[ticket_df['year'].isin(option_year)].groupby('yr_qtr')['Ticket No'].count()
+
+        yr_qtr_bar_chart=pd.DataFrame(yr_qtr_bar_chart)
+        st.markdown("**Quater wise ticket count**")
+        st.bar_chart(yr_qtr_bar_chart)
 
 
 #***********************************************************************************************
   
 # stacked bar chart   priority wise
+    elif option == 'Priority wise analysis':
 
-    qtr_wise_stacked_bar_chart=ticket_df[ticket_df['year'].isin(option_year)].groupby(['year','yr_qtr','Priority'])['Ticket No'].count()
-    qtr_wise_stacked_bar_chart=pd.DataFrame(qtr_wise_stacked_bar_chart)
-    qtr_wise_stacked_bar_chart=qtr_wise_stacked_bar_chart.reset_index()
-   
-    fig = px.bar(qtr_wise_stacked_bar_chart, x='yr_qtr', y='Ticket No', color='Priority',
-                labels={'Ticket No': 'Category Value'},
-                title='Stacked Bar Chart of Categories by Year')
+        qtr_wise_stacked_bar_chart=ticket_df[ticket_df['year'].isin(option_year)].groupby(['year','yr_qtr','Priority'])['Ticket No'].count()
+        qtr_wise_stacked_bar_chart=pd.DataFrame(qtr_wise_stacked_bar_chart)
+        qtr_wise_stacked_bar_chart=qtr_wise_stacked_bar_chart.reset_index()
     
-    # Add hover data for tooltips
-    fig.update_traces(texttemplate='%{y}', textposition='outside')
+        fig = px.bar(qtr_wise_stacked_bar_chart, x='yr_qtr', y='Ticket No', color='Priority',
+                    labels={'Ticket No': 'Category Value'},
+                    title=' Year wise Priority stacked Bar Chart ')
+        
+        # Add hover data for tooltips
+        fig.update_traces(texttemplate='%{y}', textposition='outside')
 
-    # Display the chart in Streamlit
-    st.plotly_chart(fig)
+        # Display the chart in Streamlit
+        st.plotly_chart(fig)
 
 
 #***********************************************************************************************
     # stacked bar chart status wise :  this will show year wise selected data
-    
-    qtr_wise_status_bar_chart=ticket_df[ticket_df['year'].isin(option_year)].groupby(['year','yr_qtr','Status'])['Ticket No'].count()
-    qtr_wise_status_bar_chart=pd.DataFrame(qtr_wise_status_bar_chart)
-    qtr_wise_status_bar_chart=qtr_wise_status_bar_chart.reset_index()
-    
-    fig1 = px.bar(qtr_wise_status_bar_chart, x='yr_qtr', y='Ticket No', color='Status',
-                labels={'Ticket No': 'Category Value'},
-                title='Stacked Bar Chart of status by Year')
-    
-    # Add hover data for tooltips
-    fig1.update_traces(texttemplate='%{y}', textposition='outside')
+    else:
 
-    # Display the chart in Streamlit
-    st.plotly_chart(fig1)
- 
+        qtr_wise_status_bar_chart=ticket_df[ticket_df['year'].isin(option_year)].groupby(['year','yr_qtr','Status'])['Ticket No'].count()
+        qtr_wise_status_bar_chart=pd.DataFrame(qtr_wise_status_bar_chart)
+        qtr_wise_status_bar_chart=qtr_wise_status_bar_chart.reset_index()
+        color_map = {
+        'Status1': 'black',
+        'Status2': 'yellow',
+        'Status3': 'green',
+        # Add more colors for other Status categories as needed
+    }
+        
+        fig1 = px.bar(qtr_wise_status_bar_chart, x='yr_qtr', y='Ticket No', color='Status',
+                    labels={'Ticket No': 'Category Value'},
+                    title='Year wise Status stacked Bar Chart ',
+                    color_discrete_map=color_map)
+        
+        # Add hover data for tooltips
+        fig1.update_traces(texttemplate='%{y}', textposition='outside')
+
+        # Display the chart in Streamlit
+        st.plotly_chart(fig1)
+    
+
 
 
 #***********************************************************************************************
     st.subheader('AS PER DROP DOWN ANALYSIS')
+    st.header('')
 #***********************************************************************************************
 
+
+  
+#*********************************************************************************************
+  # status and priority selection
+#*********************************************************************************************
+
+    col20,col21 = st.columns(2)
+    with col20:
+        option_priority = st.multiselect('select priority',ticket_df['Priority'].unique().tolist())
+    with col21:
+        option_status = st.multiselect('select status',ticket_df['Status'].unique().tolist())
 # stacked bar chart   drop down bases
 
-    qtr_wise_priority_issue_stacked_bar_chart=ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type)].groupby(['year','yr_qtr','Priority'])['Ticket No'].count()
+    qtr_wise_priority_issue_stacked_bar_chart=ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type) & ticket_df['Status'].isin(option_status)].groupby(['year','yr_qtr','Priority'])['Ticket No'].count()
     qtr_wise_priority_issue_stacked_bar_chart=pd.DataFrame(qtr_wise_priority_issue_stacked_bar_chart)
     qtr_wise_priority_issue_stacked_bar_chart=qtr_wise_priority_issue_stacked_bar_chart.reset_index()
    
     fig = px.bar(qtr_wise_priority_issue_stacked_bar_chart, x='yr_qtr', y='Ticket No', color='Priority',
                 labels={'Ticket No': 'Category Value'},
-                title='Stacked Bar Chart as per dropdown')
+                title='Priority stacked Bar Chart ')
     
     # Add hover data for tooltips
     fig.update_traces(texttemplate='%{y}', textposition='outside')
@@ -459,13 +488,19 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
  #***********************************************************************************************
     # stacked bar chart 
     
-    qtr_wise_priority_issue_status_bar_chart=ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type)].groupby(['year','yr_qtr','Status'])['Ticket No'].count()
+    qtr_wise_priority_issue_status_bar_chart=ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type) & ticket_df['Status'].isin(option_status)].groupby(['year','yr_qtr','Status'])['Ticket No'].count()
     qtr_wise_priority_issue_status_bar_chart=pd.DataFrame(qtr_wise_priority_issue_status_bar_chart)
     qtr_wise_priority_issue_status_bar_chart=qtr_wise_priority_issue_status_bar_chart.reset_index()
-    
+    color_map = {
+        'Status1': 'black',
+        'Status2': 'yellow',
+        'Status3': 'green',
+        # Add more colors for other Status categories as needed
+    }
     fig1 = px.bar(qtr_wise_priority_issue_status_bar_chart, x='yr_qtr', y='Ticket No', color='Status',
                 labels={'Ticket No': 'Category Value'},
-                title='status Stacked Bar Chart as per dropdown')
+                title='Status Stacked Bar Chart ',
+                color_discrete_map=color_map)
     
     # Add hover data for tooltips
     fig1.update_traces(texttemplate='%{y}', textposition='outside')
@@ -475,36 +510,45 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
 
 
 #***********************************************************************************************
-
+    #stacked bar chart for delay timing
 # **************************************************************************************************
-
-
-
-
-    status_wise_year_priority_issue_type_count=ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type)].groupby('Status')['Ticket No'].count()
+    
+    
     delay_day_count_category_wise=ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type)].groupby('Category')['dealay_days'].count()
     # year wise total status
 
-    col3,col4 = st.columns(2)
-    with col3:
-        ticket_hist= ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type)].groupby('Category')['dealay_days'].count()
-        # Create a histogram with 20 bins
-        ticket_hist=pd.DataFrame(ticket_hist)
+    
+    ticket_hist= ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type) & ticket_df['Status'].isin(option_status)].groupby(['Category','Priority'])['dealay_days'].count()
+    
+    ticket_hist=pd.DataFrame(ticket_hist)
+    #custom_order = ['No delay', 'Less than 6 days' , 'Less than 10 days','Less than 20 days','More than 20 days','In Process or Open']
+    #ticket_hist = ticket_hist.loc[custom_order]
+    ticket_hist=ticket_hist.reset_index()
+        #ticket_hist
+    #st.dataframe(ticket_hist)
         #ticket_hist = ticket_hist.set_index('Category')
-        st.subheader('Ticket delay time')
-        st.bar_chart(ticket_hist)
+    st.subheader('Ticket delay time')
+        #st.bar_chart(ticket_hist)
+
+    fig1 = px.bar(ticket_hist, x='Category', y='dealay_days', color='Priority',
+            labels={'dealay_days': 'Category Value'},
+            title='Delay Stacked Bar Chart as per priority')
+    
+        # Add hover data for tooltips
+    fig1.update_traces(texttemplate='%{y}', textposition='outside')
+
+        # Display the chart in Streamlit
+    st.plotly_chart(fig1)
+            
         
-        
 
 
-    with col4:
-        # Sample data
-
-        st.write(' status count')
-        fig6,ax6=plt.subplots(figsize=(2, 2))
-        ax6.pie(status_wise_year_priority_issue_type_count,labels=status_wise_year_priority_issue_type_count.index,autopct="%0.01f%%",radius=0.9, textprops={'fontsize': 5})
+    #status_wise_year_priority_issue_type_count=ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type)].groupby('Status')['Ticket No'].count()
+    #st.write(' status count')
+    #fig6,ax6=plt.subplots(figsize=(2, 2))
+    #ax6.pie(status_wise_year_priority_issue_type_count,labels=status_wise_year_priority_issue_type_count.index,autopct="%0.01f%%",radius=0.9, textprops={'fontsize': 5})
        
-        st.pyplot(fig6)
+    #st.pyplot(fig6)
 
 
 #**************************************************************************************************
@@ -513,7 +557,8 @@ def load_dropdown_analysis(option_year,option_priority,option_issue_type):
 
      # dataframe
     st.title('Data frame')
-    drop_down_data_csv=ticket_df[(ticket_df['Issue Type'].isin(option_issue_type))& (ticket_df['Priority'].isin(option_priority)) & (ticket_df['year'].isin(option_year))]
+    drop_down_data_csv=ticket_df[(ticket_df['Issue Type'].isin(option_issue_type))& (ticket_df['Priority'].isin(option_priority)) & (ticket_df['year'].isin(option_year)) & (ticket_df['Status'].isin(option_status))]
+    drop_down_data_csv=drop_down_data_csv[['Ticket No','Date / Time','Department','Assignee','Priority','Issue Type','Issue Sub Type','Source','Status','Due Date','Resolve Date']]
     st.dataframe(drop_down_data_csv)
 
    
@@ -550,11 +595,11 @@ ticket_df['dealay_days']=(ticket_df['Resolve Date'] - ticket_df['Due Date']).dt.
 ticket_df.loc[ticket_df['dealay_days'] < 1, 'dealay_days'] = 0
 ticket_df['dealay_days'] = ticket_df['dealay_days'].fillna(-5)
 ticket_df['Category']=ticket_df['dealay_days'].apply(lambda x: 
-    'In Process or Open' if x == -5 else(
-    'No delay' if x == 0 else(
-    'less than 6 days' if x < 5 else (
-    'less than 10 days' if x < 10 else (
-    'less than 20 days' if x < 21 else 'more than 20 days')))))
+    '6  In Process or Open' if x == -5 else(
+    '1  No delay' if x == 0 else(
+    '2  Less than 6 days' if x < 5 else (
+    '3  Less than 10 days' if x < 10 else (
+    '4  Less than 20 days' if x < 21 else '5  More than 20 days')))))
 
 ticket_df['YearMonth'] = ticket_df['Date / Time'].dt.strftime('%Y-%m')
 #ticket_df['Year_new'] = pd.to_datetime(ticket_df['Date / Time'], format='%Y')
@@ -581,7 +626,11 @@ ticket_df['yr_qtr'] = ticket_df.apply(format_year_quarter, axis=1)
 
 
 
+# *******************************************************************************************
 
+# start from here
+
+# *******************************************************************************************
 
 
 
@@ -593,24 +642,25 @@ st.sidebar.image('Électricité_de_France.svg.png')
 #-------------------------------------------------------------------
 #st.sidebar.header('drop down analysis')
 
-option=st.sidebar.selectbox('select ',['overall analysis','drop down analysis'])
+#option=st.sidebar.selectbox('select ',['overall analysis','drop down analysis'])
 
-if option == 'overall analysis':   
-    load_overall_analysis()
+#if option == 'overall analysis':   
+#    load_overall_analysis()
 
 
-else:
+#else:
 
-    option_year = st.sidebar.multiselect('select year',ticket_df['Date / Time'].dt.year.unique().tolist())
+option_year = st.sidebar.multiselect('select year',ticket_df['Date / Time'].dt.year.unique().tolist())
 
-    option_priority = st.sidebar.multiselect('select priority',ticket_df['Priority'].unique().tolist())
+#option_priority = st.sidebar.multiselect('select priority',ticket_df['Priority'].unique().tolist())
+#option_status = st.sidebar.multiselect('select status',ticket_df['Status'].unique().tolist())
 
-    option_issue_type = st.sidebar.multiselect('select issue type',ticket_df['Issue Type'].unique().tolist())
+option_issue_type = st.sidebar.multiselect('select issue type',ticket_df['Issue Type'].unique().tolist())
 
-    btn1=st.sidebar.button('find ticket detail')
+#btn1=st.sidebar.button('find ticket detail')
 
-    if btn1:
-        load_dropdown_analysis(option_year,option_priority,option_issue_type)
+
+load_dropdown_analysis(option_year,option_issue_type)
 
 
 # or 'option_priority' or 'option_issue_type'
