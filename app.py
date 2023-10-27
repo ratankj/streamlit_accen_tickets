@@ -597,7 +597,11 @@ def load_dropdown_analysis(option_year,option_issue_type):
 
 
 
-ticket_df=pd.read_excel(r"C:\EDF_CODE_AUTOMATION_PYTHON\streamlit_accen_tickets\Accenture tickets.xlsx")
+
+ticket_df=pd.read_csv(r"https://raw.githubusercontent.com/ratankj/streamlit_accen_tickets/main/ticket_df_new_csv.csv")
+ticket_df['Date / Time'] = pd.to_datetime(ticket_df['Date / Time'])
+ticket_df['Due Date'] = pd.to_datetime(ticket_df['Due Date'])
+ticket_df['Resolve Date'] = pd.to_datetime(ticket_df['Resolve Date'])
 ticket_df['year']=ticket_df['Date / Time'].dt.year
 #ticket_df['year'] = ticket_df['year'].astype(str)
 ticket_df['Status']=ticket_df['Status'].replace(['Closed'], 'Resolved')
