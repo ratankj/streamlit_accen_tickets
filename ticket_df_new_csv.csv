@@ -1,0 +1,484 @@
+,Unnamed: 0,Ticket No,Date / Time,Department,Assignee,Priority,Issue Type,Issue Sub Type,Source,Status,Due Date,Resolve Date
+0,400542027,166329,2021-02-13 09:49:14,MDMS,vijay bharoliya,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Closed,2021-02-16 09:49:14,2021-06-02 14:10:57
+1,400534366,939634,2021-03-06 12:38:36,MDMS,vijay bharoliya,Medium,Excess/less Charge Deduction,Arrear Balance,Phone,Closed,2021-03-09 12:38:36,2021-06-02 14:11:07
+2,1000000101,515799,2021-04-12 15:27:33,MDMS,vijay bharoliya,High,Notification Related,Notifications (Welcome Message),Other,Closed,2021-04-13 15:27:33,2021-06-02 14:12:00
+3,1000000107,387235,2021-04-19 14:18:39,MDMS,vijay bharoliya,Low,Any other issue - Smart Meter,Any other issue - Smart Meter,Other,Closed,2021-04-29 14:18:39,2021-06-02 14:08:18
+4,1000000101,541307,2021-04-19 15:16:15,MDMS,vijay bharoliya,Low,Internal ID Creation,Internal ID Creation,Email,Closed,2021-04-29 15:16:15,2021-06-02 14:11:54
+5,1000000107,479807,2021-04-21 15:20:14,MDMS,vijay bharoliya,Medium,Internal ID Creation,Internal ID Creation,Email,Closed,2021-04-24 15:20:14,2021-06-02 14:09:00
+6,1000000107,274017,2021-04-21 18:46:29,MDMS,vijay bharoliya,Medium,Internal ID Creation,Internal ID Creation,Other,Closed,2021-04-24 18:46:29,2021-06-02 14:11:47
+7,1000000107,865257,2021-04-22 18:21:25,MDMS,vijay bharoliya,High,Any other issue - Smart Meter,Any other issue - Smart Meter,Other,Closed,2021-04-23 18:21:25,2021-06-02 14:10:47
+8,1000000107,950033,2021-04-29 11:32:51,MDMS,vijay bharoliya,Medium,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Closed,2021-05-02 11:32:51,2021-06-02 14:07:57
+9,1000000107,333076,2021-04-29 11:38:38,MDMS,vijay bharoliya,Medium,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Closed,2021-05-02 11:38:38,2021-06-02 14:11:41
+10,1000000107,300799,2021-04-30 17:31:22,MDMS,vijay bharoliya,High,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Closed,2021-05-01 17:31:22,2021-06-02 14:10:00
+11,1000000107,770885,2021-05-03 13:50:56,MDMS,vijay bharoliya,Urgent,Excess/less Consumption,Charge Calculation/Consumption,Phone,Closed,2021-05-03 19:50:56,2021-06-02 14:11:31
+12,1000000107,261220,2021-05-06 12:56:04,MDMS,vijay bharoliya,Medium,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Closed,2021-05-09 12:56:04,2021-06-02 14:08:45
+13,1000000107,342826,2021-05-06 19:46:29,MDMS,vijay bharoliya,Medium,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Closed,2021-05-09 19:46:29,2021-06-02 14:06:50
+14,1000000107,891904,2021-05-11 12:53:42,MDMS,vijay bharoliya,Medium,Any other issue - Smart Meter,Any other issue - Smart Meter,Phone,Closed,2021-05-14 12:53:42,2021-06-02 14:10:15
+15,1000000107,274006,2021-05-11 12:59:03,MDMS,vijay bharoliya,Medium,Excess/less Charge Deduction,Bill / Invoice,Email,Closed,2021-05-14 12:59:03,2021-06-02 14:09:26
+16,1000000107,650955,2021-05-11 13:27:25,MDMS,vijay bharoliya,Medium,Internal ID Creation,Internal ID Creation,Email,Closed,2021-05-14 13:27:25,2021-06-02 14:11:23
+17,1000000107,585838,2021-05-12 11:31:44,MDMS,vijay bharoliya,Medium,Internal ID Creation,Internal ID Creation,Email,Closed,2021-05-15 11:31:44,2021-06-02 14:11:15
+18,1000000107,874234,2021-05-19 10:36:19,MDMS,vijay bharoliya,Medium,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Closed,2021-05-22 10:36:19,2021-06-02 14:10:34
+19,1000000107,900545,2021-05-19 10:39:33,MDMS,vijay bharoliya,Medium,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Closed,2021-05-22 10:39:33,2021-06-02 14:09:45
+20,1000000107,290000,2021-06-01 11:54:46,MDMS,vijay bharoliya,Medium,Any other issue - Smart Meter,Any other issue - Smart Meter,Phone,Closed,2021-06-04 11:54:46,2021-06-02 14:07:37
+21,1000000107,918990,2021-06-02 13:15:13,MDMS,vijay bharoliya,High,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Closed,2021-06-03 13:15:13,2021-06-02 14:06:21
+22,1000000107,205942,2021-06-02 13:18:46,MDMS,vijay bharoliya,Medium,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Closed,2021-06-05 13:18:46,2021-06-02 14:55:55
+23,1000000107,521732,2021-06-02 13:24:51,MDMS,Sudhakar Yadav,Low,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Resolved,2021-06-12 13:24:51,2021-06-11 14:01:02
+24,1000000107,119876,2021-06-04 15:11:19,MDMS,Sudhakar Yadav,High,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Resolved,2021-06-05 15:11:19,2021-06-08 13:10:04
+25,1000000107,523689,2021-06-07 12:19:41,MDMS,Sudhakar Yadav,Medium,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Resolved,2021-06-10 12:19:41,2021-06-11 14:03:10
+26,1000000107,831463,2021-06-13 13:45:37,MDMS,Sudhakar Yadav,High,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Resolved,2021-06-14 13:45:37,2021-06-18 22:05:13
+27,1000000107,953739,2021-07-07 11:38:52,MDMS,vijay bharoliya,High,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Resolved,2021-07-08 11:38:52,2021-07-07 13:29:32
+28,1000000107,653103,2021-07-07 13:29:44,MDMS,vijay bharoliya,Medium,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Resolved,2021-07-10 13:29:44,2021-07-07 13:45:45
+29,1000000107,945161,2021-07-07 16:07:53,MDMS,vijay bharoliya,Medium,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Resolved,2021-07-10 16:07:53,2021-07-13 15:41:00
+30,1000000107,821796,2021-07-12 16:46:28,MDMS,vijay bharoliya,High,Any other issue - Smart Meter,Any other issue - Smart Meter,Phone,Resolved,2021-07-13 16:46:28,2021-07-14 11:46:27
+31,1000000103,206001,2021-07-14 17:11:41,MDMS,vijay bharoliya,High,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Resolved,2021-07-15 17:11:41,2021-08-05 12:13:34
+32,1000000107,268013,2021-07-16 12:03:20,MDMS,Sudhakar Yadav,Medium,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Resolved,2021-07-19 12:03:20,2021-07-19 15:36:31
+33,1000000107,825068,2021-07-19 10:27:59,MDMS,Sudhakar Yadav,High,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Resolved,2021-07-20 10:27:59,2021-07-20 03:08:16
+34,1000000107,838048,2021-07-24 11:51:45,MDMS,Sudhakar Yadav,High,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Resolved,2021-07-25 11:51:45,2021-07-27 08:22:11
+35,1000000107,926726,2021-07-28 11:45:59,MDMS,Pushpendra Singh,High,Internal ID Creation,Internal ID Creation,Email,Resolved,2021-07-29 11:45:59,2021-07-28 13:29:27
+36,1000000107,349391,2021-08-04 18:44:25,MDMS,vijay bharoliya,High,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Resolved,2021-08-05 18:44:25,2021-08-05 12:11:18
+37,1000000107,530566,2021-08-04 18:46:50,MDMS,Sudhakar Yadav,High,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Resolved,2021-08-05 18:46:50,2021-08-11 14:17:43
+38,1000000107,728405,2021-08-06 14:27:29,MDMS,Sudhakar Yadav,Low,Any other issue - Smart Meter,Any other issue - Smart Meter,API,Resolved,2021-08-16 14:27:29,2021-08-11 14:18:09
+39,1000000107,996864,2021-08-23 17:24:32,MDMS,Pushpendra Singh,Medium,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Resolved,2021-08-26 17:24:32,2021-08-25 12:23:16
+40,1000000107,873443,2021-08-26 17:28:04,MDMS,vijay bharoliya,Medium,Excess/less Charge Deduction,Excess/less charge Deduction rel,Email,Resolved,2021-08-29 17:28:04,2021-09-02 11:45:53
+41,1000000107,642459,2021-08-31 11:35:36,MDMS,Sudhakar Yadav,Medium,New Development Related,New Development Related,Email,Resolved,2021-09-03 11:35:36,2021-09-03 15:02:39
+42,1000000107,235420,2021-08-31 11:37:27,MDMS,Sudhakar Yadav,High,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2021-09-01 11:37:27,2021-08-31 16:15:21
+43,1000000107,311340,2021-09-02 11:33:27,MDMS,Pushpendra Singh,Medium,Internal ID Creation,Internal ID Creation,Email,Resolved,2021-09-05 11:33:27,2021-09-02 16:30:18
+44,1000000107,963704,2021-09-06 12:43:44,MDMS,Sudhakar Yadav,High,Any other issue - Smart Meter,Other issue,Email,Resolved,2021-09-07 12:43:44,2021-09-06 13:26:59
+45,1000000107,132440,2021-09-16 20:06:57,MDMS,vijay bharoliya,Urgent,Disconnection Related,Power Disconnection (Query),Email,Resolved,2021-09-17 02:06:57,2021-09-18 20:34:18
+46,1000000107,285351,2021-09-18 19:07:12,MDMS,Sudhakar Yadav,Urgent,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2021-09-19 01:07:12,2021-09-24 13:37:35
+47,1000000107,434082,2021-09-18 19:32:46,MDMS,vijay bharoliya,High,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2021-09-19 19:32:46,2021-09-18 20:32:48
+48,1000000107,107792,2021-09-22 12:48:58,MDMS,Sudhakar Yadav,High,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2021-09-23 12:48:58,2021-11-19 16:07:50
+49,1000000107,260623,2021-09-22 14:26:38,MDMS,vijay bharoliya,High,Excess/less Charge Deduction,Excess/less charge Deduction rel,Email,Resolved,2021-09-23 14:26:38,2021-09-22 16:48:44
+50,1000000107,525407,2021-09-22 14:50:42,MDMS,Sudhakar Yadav,High,Any other issue - Smart Meter,Other issue,Email,Resolved,2021-09-23 14:50:42,2021-09-23 23:59:30
+51,1000000107,702381,2021-09-22 15:07:52,MDMS,Sudhakar Yadav,Medium,Any other issue - Smart Meter,Other issue,Email,Resolved,2021-09-25 15:07:52,2021-09-30 01:38:49
+52,1000000107,551717,2021-09-22 16:54:21,MDMS,Pushpendra Singh,High,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2021-09-23 16:54:21,2021-09-22 17:32:01
+53,1000000101,740529,2021-09-22 19:15:50,MDMS,Sudhakar Yadav,High,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2021-09-23 19:15:50,2021-09-23 23:51:52
+54,1000000107,212523,2021-09-23 17:20:18,MDMS,Sudhakar Yadav,High,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2021-09-24 17:20:18,2021-09-23 17:38:57
+55,1000000107,812789,2021-09-24 17:41:26,MDMS,vijay bharoliya,High,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2021-09-25 17:41:26,2021-09-24 18:26:28
+56,1000000107,569845,2021-09-27 16:20:24,MDMS,Sudhakar Yadav,High,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2021-09-28 16:20:24,2021-10-11 00:10:35
+57,1000000107,359341,2021-10-07 11:29:03,MDMS,Sudhakar Yadav,High,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2021-10-08 11:29:03,2021-11-19 15:58:26
+58,1000000107,351119,2021-10-11 10:38:43,MDMS,vijay bharoliya,Medium,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2021-10-14 10:38:43,2021-11-19 17:49:56
+59,1000000107,387941,2021-10-11 11:37:55,MDMS,vijay bharoliya,Medium,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2021-10-14 11:37:55,2021-10-27 13:24:05
+60,1000000107,752370,2021-10-27 11:24:03,MDMS,vijay bharoliya,Medium,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2021-10-30 11:24:03,2021-10-27 13:22:03
+61,1000000107,667096,2021-10-28 10:56:46,MDMS,Sudhakar Yadav,High,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2021-10-29 10:56:46,2021-11-19 15:57:06
+62,1000000107,242659,2021-11-02 10:47:08,MDMS,Pushpendra Singh,High,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2021-11-03 10:47:08,2022-01-03 10:46:36
+63,1000000107,355779,2021-11-02 10:50:17,MDMS,Sudhakar Yadav,High,Any other issue - Smart Meter,Other issue,Email,Resolved,2021-11-03 10:50:17,2021-11-19 15:53:33
+64,1000000107,696491,2021-11-08 15:42:23,MDMS,Sudhakar Yadav,Medium,App related issue (SCM),Not able to Pay/Recharge,Email,Resolved,2021-11-11 15:42:23,2021-11-19 15:51:29
+65,1000000107,982586,2021-11-15 17:08:26,MDMS,Sudhakar Yadav,Medium,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2021-11-18 17:08:26,2021-11-19 15:50:32
+66,1000000107,429348,2021-11-16 11:16:37,MDMS,vijay bharoliya,Medium,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2021-11-19 11:16:37,2021-11-16 12:10:22
+67,1000000107,280893,2021-11-19 14:51:55,MDMS,Pushpendra Singh,Low,Internal ID Creation,Internal ID Creation,Phone,Resolved,2021-11-29 14:51:55,2021-12-21 11:01:35
+68,1000000101,199127,2021-11-23 16:58:07,MDMS,vijay bharoliya,Urgent,Any other issue - Smart Meter,Other issue,Other,Resolved,2021-11-23 22:58:07,2021-12-23 10:20:04
+69,1000000107,893781,2021-12-02 11:07:29,MDMS,Rattnam Choubey,High,Any other issue - Smart Meter,Other issue,Email,Resolved,2021-12-03 11:07:29,2021-12-23 10:55:05
+70,1000000107,770025,2021-12-15 11:15:29,MDMS,vijay bharoliya,High,Excess/less Charge Deduction,Excess/less charge Deduction rel,Email,Resolved,2021-12-16 11:15:29,2021-12-23 10:28:36
+71,1000000107,142481,2021-12-15 11:30:26,MDMS,Gayatri kulkarni,Medium,Any other issue - Smart Meter,Other issue,Email,Resolved,2021-12-18 11:30:26,2021-12-23 10:53:27
+72,1000000107,895060,2021-12-15 14:02:46,MDMS,Pushpendra Singh,Medium,Any other issue - Smart Meter,Other issue,Email,Resolved,2021-12-18 14:02:46,2021-12-23 10:55:22
+73,1000000107,881079,2021-12-23 14:18:21,MDMS,Pushpendra Singh,Low,Internal ID Creation,Internal ID Creation,Other,Resolved,2022-01-02 14:18:21,2021-12-23 14:52:07
+74,1000000107,224525,2021-12-28 09:18:54,MDMS,Pushpendra Singh,High,Any other issue - Smart Meter,Other issue,Email,Resolved,2021-12-29 09:18:54,2021-12-31 16:47:28
+75,1000000107,693198,2021-12-29 17:20:01,MDMS,Girdhar Tripathi,High,Any other issue - Smart Meter,Other issue,Email,Resolved,2021-12-30 17:20:01,2021-12-29 18:58:08
+76,1000000107,774524,2021-12-29 17:25:41,MDMS,Girdhar Tripathi,High,Any other issue - Smart Meter,Other issue,Email,Resolved,2021-12-30 17:25:41,2021-12-31 14:28:34
+77,1000000107,258454,2021-12-30 13:46:19,MDMS,Girdhar Tripathi,High,Any other issue - Smart Meter,Other issue,Email,Resolved,2021-12-31 13:46:19,2021-12-30 23:12:16
+78,1000000107,833044,2021-12-31 10:14:44,MDMS,Girdhar Tripathi,High,Any other issue - Smart Meter,Other issue,Email,Resolved,2022-01-01 10:14:44,2022-01-04 16:28:12
+79,1000000107,669617,2022-01-07 12:55:22,MDMS,Pushpendra Singh,Low,Any other issue - Smart Meter,Any other issue - Smart Meter,API,Resolved,2022-01-17 12:55:22,2022-01-17 21:35:13
+80,1000000101,680636,2022-01-08 12:23:27,MDMS,Pushpendra Singh,Urgent,Any other issue - Smart Meter,SSI / SSR Request,Phone,Resolved,2022-01-08 18:23:27,2022-01-17 21:32:39
+81,1000000101,485038,2022-01-08 13:32:27,MDMS,Pushpendra Singh,Urgent,Any other issue - Smart Meter,Other issue,Phone,Resolved,2022-01-08 19:32:27,2022-01-17 21:28:19
+82,1000000101,729601,2022-01-10 10:36:30,MDMS,Pushpendra Singh,Urgent,Any other issue - Smart Meter,Other issue,Other,Resolved,2022-01-10 16:36:30,2022-01-17 21:24:03
+83,1000000107,914236,2022-01-13 11:14:46,MDMS,Pushpendra Singh,Urgent,Any other issue - Smart Meter,Other issue,Other,Resolved,2022-01-13 17:14:46,2022-01-20 11:40:43
+84,1000000107,703546,2022-01-18 15:39:12,MDMS,Pushpendra Singh,Low,Any other issue - Smart Meter,Any other issue - Smart Meter,API,Resolved,2022-01-28 15:39:12,2022-02-04 10:49:04
+85,1000000101,905461,2022-01-18 16:44:44,MDMS,Pushpendra Singh,High,Any other issue - Smart Meter,Other issue,Other,Resolved,2022-01-19 16:44:44,2022-01-18 19:57:18
+86,1000000107,566495,2022-01-19 17:41:59,MDMS,Pushpendra Singh,Urgent,Internal ID Creation,Internal ID Creation,Other,Resolved,2022-01-19 23:41:59,2022-01-20 11:43:35
+87,1000000107,895121,2022-01-20 12:00:55,MDMS,Pushpendra Singh,Urgent,Any other issue - Smart Meter,Other issue,Other,Resolved,2022-01-20 18:00:55,2022-01-20 16:13:41
+88,1000000107,367262,2022-01-21 15:44:01,MDMS,Pushpendra Singh,High,Internal ID Creation,Internal ID Creation,Email,Resolved,2022-01-22 15:44:01,2022-01-24 11:29:24
+89,1000000107,741111,2022-01-24 15:51:23,MDMS,Pushpendra Singh,Urgent,Internal ID Creation,Internal ID Creation,Other,Resolved,2022-01-24 21:51:23,2022-01-24 16:20:44
+90,1000000107,653219,2022-01-27 09:38:42,MDMS,Pushpendra Singh,Urgent,Internal ID Creation,Internal ID Creation,Email,Resolved,2022-01-27 15:38:42,2022-01-27 14:04:22
+91,1000000108,268162,2022-01-29 16:52:09,MDMS,Pushpendra Singh,High,Any other issue - Smart Meter,Other issue,Email,Resolved,2022-01-30 16:52:09,2022-02-01 14:10:42
+92,1000000107,500085,2022-01-31 12:12:40,MDMS,Pushpendra Singh,Urgent,Internal ID Creation,Internal ID Creation,Email,Resolved,2022-01-31 18:12:40,2022-02-01 10:56:54
+93,1000000107,480344,2022-02-10 12:07:58,MDMS,Rattnam Choubey,Urgent,Notification Related,Notifications (Welcome Message),Email,Resolved,2022-02-10 18:07:58,2022-02-10 13:42:22
+94,1000000107,521127,2022-02-11 12:22:45,MDMS,Pushpendra Singh,High,Internal ID Creation,Internal ID Creation,Email,Resolved,2022-02-12 12:22:45,2022-02-11 21:10:17
+95,1000000107,638605,2022-02-11 16:52:59,MDMS,Pushpendra Singh,High,Internal ID Creation,Internal ID Creation,Phone,Resolved,2022-02-12 16:52:59,2022-02-11 18:13:37
+96,1000000107,963635,2022-02-14 14:55:13,MDMS,Pushpendra Singh,Urgent,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2022-02-14 20:55:13,2022-02-14 15:04:24
+97,1000000107,958373,2022-02-14 16:38:39,MDMS,Gayatri kulkarni,Urgent,Smart Meter (Query),Smart Meter (Query),Phone,Resolved,2022-02-14 22:38:39,2022-04-28 14:54:11
+98,1000000107,197640,2022-02-14 18:27:55,MDMS,Pushpendra Singh,High,Internal ID Creation,Internal ID Creation,Phone,Resolved,2022-02-15 18:27:55,2022-02-14 23:00:51
+99,1000000107,674075,2022-02-16 12:00:20,MDMS,Rattnam Choubey,Urgent,Excess/less Consumption,Excess/less Consumption related,Email,Resolved,2022-02-16 18:00:20,2022-02-25 15:01:15
+100,1000000107,845817,2022-02-17 14:06:18,MDMS,Pushpendra Singh,Urgent,Non-smart meter related,Non-Smart meter related,Phone,Resolved,2022-02-17 20:06:18,2022-02-21 10:07:10
+101,1000000108,612602,2022-02-24 17:50:27,MDMS,Pushpendra Singh,Urgent,Any other issue - Smart Meter,Other issue,Email,Closed,2022-02-24 23:50:27,2022-03-11 17:53:55
+102,1000000108,166233,2022-02-25 17:11:58,MDMS,Rattnam Choubey,Urgent,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2022-02-25 23:11:58,2022-03-09 10:30:13
+103,1000000101,304385,2022-02-28 17:16:40,MDMS,Pushpendra Singh,Medium,Any other issue - Smart Meter,Other issue,Email,Resolved,2022-03-03 17:16:40,2022-03-04 11:04:11
+104,1000000108,637793,2022-03-02 10:30:07,MDMS,Pushpendra Singh,High,Internal ID Creation,Internal ID Creation,Email,Resolved,2022-03-03 10:30:07,2022-03-02 17:44:43
+105,1000000101,399343,2022-03-02 11:43:09,MDMS,Pushpendra Singh,Urgent,Internal ID Creation,Internal ID Creation,Phone,Resolved,2022-03-02 17:43:09,2022-03-02 17:47:15
+106,1000000101,808748,2022-03-04 16:47:48,MDMS,Pushpendra Singh,Medium,Non-smart meter related,Non-Smart meter related,Other,Resolved,2022-03-07 16:47:48,2022-03-07 18:52:05
+107,1000000101,433636,2022-03-04 17:16:26,MDMS,Pushpendra Singh,Medium,Internal ID Creation,Internal ID Creation,Email,Resolved,2022-03-07 17:16:26,2022-03-07 19:57:02
+108,1000000101,959682,2022-03-07 18:42:27,MDMS,Rattnam Choubey,Medium,Non-smart meter related,Non-Smart meter related,Email,Resolved,2022-03-10 18:42:27,2022-03-11 17:44:52
+109,1000000101,411383,2022-03-08 12:43:03,MDMS,Pushpendra Singh,Low,Non-smart meter related,Non-Smart meter related,Email,Resolved,2022-03-18 12:43:03,2022-03-11 15:54:27
+110,1000000101,642202,2022-03-08 17:18:03,MDMS,Pushpendra Singh,Urgent,Notification Related,Notifications (Welcome Message),Email,Resolved,2022-03-08 23:18:03,2022-03-08 19:09:41
+111,1000000101,667084,2022-03-09 14:47:54,MDMS,Gayatri kulkarni,Low,Any other issue - Smart Meter,Other issue,Email,Resolved,2022-03-19 14:47:54,2022-04-28 14:55:40
+112,1000000101,417865,2022-03-10 18:21:28,MDMS,Rattnam Choubey,High,Excess/less Charge Deduction,Excess/less charge Deduction rel,Phone,Resolved,2022-03-11 18:21:28,2022-03-11 12:43:23
+113,1000000101,152404,2022-03-25 12:13:52,MDMS,Rattnam Choubey,Low,Any other issue - Smart Meter,Other issue,Email,Resolved,2022-04-04 12:13:52,2022-04-07 17:22:46
+114,1000000101,545737,2022-03-25 13:19:57,MDMS,Rattnam Choubey,Low,Any other issue - Smart Meter,Other issue,Email,Resolved,2022-04-04 13:19:57,2022-04-07 17:22:03
+115,1000000101,734047,2022-04-02 12:13:29,MDMS,Rattnam Choubey,High,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2022-04-03 12:13:29,2022-04-07 17:25:07
+116,1000000107,679969,2022-04-06 15:43:12,MDMS,Pushpendra Singh,Urgent,Recharge Related,Recharged but balance not update,Phone,Resolved,2022-04-06 21:43:12,2022-04-28 18:31:56
+117,1000000101,121117,2022-04-09 14:55:15,MDMS,Gayatri kulkarni,High,Any other issue - Smart Meter,Other issue,Email,Resolved,2022-04-10 14:55:15,2022-04-28 17:09:32
+118,1000000108,809218,2022-04-15 20:46:33,MDMS,Pushpendra Singh,Low,Internal ID Creation,Internal ID Creation,Phone,Resolved,2022-04-25 20:46:33,2022-08-30 13:29:32
+119,1000000101,427695,2022-04-21 14:12:19,MDMS,Pushpendra Singh,Urgent,Excess/less Charge Deduction,Excess/less charge Deduction rel,Other,Resolved,2022-04-21 20:12:19,2022-05-20 12:53:25
+120,1000000101,568299,2022-04-27 16:22:41,MDMS,Gayatri kulkarni,Low,Any other issue - Smart Meter,SSI / SSR Request,Email,Resolved,2022-05-07 16:22:41,2022-04-28 17:10:53
+121,1000000107,811673,2022-04-30 16:51:16,MDMS,Pushpendra Singh,Urgent,Any other issue - Smart Meter,Other issue,Phone,Resolved,2022-04-30 22:51:16,2022-05-10 09:26:10
+122,1000000101,590602,2022-05-07 11:21:59,MDMS,Pushpendra Singh,Low,Any other issue - Smart Meter,Other issue,Other,Resolved,2022-05-17 11:21:59,2022-05-27 09:41:38
+123,1000000107,849712,2022-05-09 18:06:38,MDMS,Amit Sonkar,High,Notification Related,Notifications (Welcome Message),Phone,Resolved,2022-05-10 18:06:38,2022-05-13 12:34:46
+124,1000000101,361401,2022-05-12 13:58:50,MDMS,Gayatri kulkarni,High,Non-smart meter related,Non-Smart meter related,Phone,Resolved,2022-05-13 13:58:50,2022-05-20 11:13:55
+125,1000000101,127182,2022-05-17 17:11:58,MDMS,Gayatri kulkarni,Urgent,Notification Related,Notifications (Welcome Message),Other,Resolved,2022-05-17 23:11:58,2022-05-20 10:58:54
+126,1000000107,272265,2022-05-30 11:15:03,MDMS,Pushpendra Singh,High,Any other issue - Smart Meter,Other issue,Phone,Resolved,2022-05-31 11:15:03,2022-07-15 15:45:00
+127,1000000101,354721,2022-05-30 17:17:30,MDMS,Pushpendra Singh,High,Internal ID Creation,Internal ID Creation,Email,Resolved,2022-05-31 17:17:30,2022-05-31 09:30:45
+128,1000000101,668961,2022-05-31 14:18:41,MDMS,Pushpendra Singh,Urgent,Any other issue - Smart Meter,Other issue,Email,Resolved,2022-05-31 20:18:41,2022-06-07 14:13:07
+129,1000000101,919681,2022-06-02 12:20:02,MDMS,Pushpendra Singh,Medium,Internal ID Creation,Internal ID Creation,Email,Resolved,2022-06-05 12:20:02,2022-06-02 12:50:12
+130,1000000101,641891,2022-06-06 11:17:42,MDMS,Gayatri kulkarni,Low,Any other issue - Smart Meter,Other issue,Email,Resolved,2022-06-16 11:17:42,2022-06-07 16:26:12
+131,1000000101,660744,2022-06-06 15:48:57,MDMS,Pushpendra Singh,Urgent,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2022-06-06 21:48:57,2022-06-07 13:41:35
+132,1000000101,877669,2022-06-06 18:04:48,MDMS,Pushpendra Singh,High,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2022-06-07 18:04:48,2022-06-07 22:06:44
+133,1000000101,851717,2022-06-13 08:13:22,MDMS,Pushpendra Singh,Urgent,Internal ID Creation,Internal ID Creation,Email,Resolved,2022-06-13 14:13:22,2022-06-13 09:12:43
+134,1000000101,360381,2022-06-13 08:54:50,MDMS,Pushpendra Singh,Medium,Internal ID Creation,Internal ID Creation,Email,Resolved,2022-06-16 08:54:50,2022-06-13 09:22:15
+135,1000000101,675051,2022-06-15 11:16:30,MDMS,Pushpendra Singh,High,Excess/less Consumption,Charge Calculation/Consumption,Phone,Resolved,2022-06-16 11:16:30,2022-06-29 18:09:45
+136,1000000101,420287,2022-06-16 12:30:49,MDMS,Pushpendra Singh,Low,Excess/less Consumption,Excess/less Consumption related,Email,Resolved,2022-06-26 12:30:49,2022-07-27 18:33:33
+137,1000000101,988049,2022-06-21 14:56:28,MDMS,Pushpendra Singh,High,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2022-06-22 14:56:28,2022-06-24 23:10:32
+138,1000000101,313266,2022-06-24 19:43:18,MDMS,Pushpendra Singh,High,Internal ID Creation,Internal ID Creation,Email,Resolved,2022-06-25 19:43:18,2022-07-02 11:55:18
+139,1000000101,694597,2022-07-02 10:53:20,MDMS,Pushpendra Singh,High,Internal ID Creation,Internal ID Creation,Email,Resolved,2022-07-03 10:53:20,2022-07-05 10:04:39
+140,1000000101,607736,2022-07-04 14:55:50,MDMS,Pushpendra Singh,High,Internal ID Creation,Internal ID Creation,Phone,Resolved,2022-07-05 14:55:50,2022-07-05 09:57:36
+141,1000000101,706531,2022-07-13 11:31:48,MDMS,Gayatri kulkarni,High,Internal ID Creation,Internal ID Creation,Email,Resolved,2022-07-14 11:31:48,2022-07-13 15:44:44
+142,1000000107,201028,2022-07-15 15:29:55,MDMS,Pushpendra Singh,High,New Development Related,New Development Related,Other,Resolved,2022-07-16 15:29:55,2022-07-21 15:38:41
+143,1000000101,870943,2022-07-25 10:27:47,MDMS,Pushpendra Singh,High,Internal ID Creation,Internal ID Creation,Email,Resolved,2022-07-26 10:27:47,2022-07-26 08:59:19
+144,1000000101,203128,2022-07-28 17:59:33,MDMS,Pushpendra Singh,Medium,Any other issue - Smart Meter,Other issue,Other,Resolved,2022-07-31 17:59:33,2022-08-15 17:01:43
+145,1000000107,612164,2022-07-28 18:27:08,MDMS,Pushpendra Singh,High,Any other issue - Smart Meter,Other issue,Phone,Resolved,2022-07-29 18:27:08,2022-08-15 16:43:05
+146,1000000101,607316,2022-08-02 13:43:46,MDMS,Gayatri kulkarni,High,Excess/less Charge Deduction,Bill / Invoice,Phone,Resolved,2022-08-03 13:43:46,2022-08-16 14:59:51
+147,1000000101,104559,2022-08-02 17:11:05,MDMS,Rattnam Choubey,High,Excess/less Charge Deduction,Excess/less charge Deduction rel,Email,Resolved,2022-08-03 17:11:05,2022-08-17 10:50:58
+148,1000000101,603893,2022-08-13 15:34:37,MDMS,Pushpendra Singh,High,Internal ID Creation,Internal ID Creation,Phone,Resolved,2022-08-14 15:34:37,2022-08-15 16:19:06
+149,1000000101,762563,2022-08-16 10:36:31,MDMS,Pushpendra Singh,High,Smart Meter (Query),Smart Meter (Query),Phone,Resolved,2022-08-17 10:36:31,2022-08-17 23:04:02
+150,1000000107,646883,2022-08-16 12:49:28,MDMS,Rattnam Choubey,Low,Excess/less Consumption,Charge Calculation/Consumption,Phone,Resolved,2022-08-26 12:49:28,2022-08-30 14:13:57
+151,1000000101,375115,2022-08-17 10:24:22,MDMS,Pushpendra Singh,Medium,New Development Related,New Development Related,Email,Resolved,2022-08-20 10:24:22,2022-08-22 23:14:12
+152,1000000103,948892,2022-08-17 11:40:19,MDMS,Pushpendra Singh,Urgent,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Resolved,2022-08-17 17:40:19,2022-08-23 19:47:04
+153,1000000101,951987,2022-08-20 11:37:13,MDMS,Rattnam Choubey,Low,Smart Meter (Query),Smart Meter (Query),Phone,Resolved,2022-08-30 11:37:13,2022-08-22 11:22:23
+154,1000000101,291096,2022-08-20 13:31:30,MDMS,Pushpendra Singh,Low,Smart Meter (Query),Smart Meter (Query),Phone,Resolved,2022-08-30 13:31:30,2022-09-22 19:19:24
+155,1000000101,767671,2022-08-22 15:58:06,MDMS,Pushpendra Singh,Low,Smart Meter (Query),Smart Meter (Query),Phone,Resolved,2022-09-01 15:58:06,2022-08-30 13:57:46
+156,1000000101,790305,2022-08-23 16:43:33,MDMS,Rattnam Choubey,High,Smart Meter (Query),Smart Meter (Query),Phone,Resolved,2022-08-24 16:43:33,2022-08-23 18:23:35
+157,1000000101,836775,2022-08-25 11:12:54,MDMS,Pushpendra Singh,Urgent,Any other issue - Smart Meter,Other issue,Other,Resolved,2022-08-25 17:12:54,2022-08-30 13:54:21
+158,1000000101,589380,2022-08-26 11:54:10,MDMS,Pushpendra Singh,High,Any other issue - Smart Meter,Other issue,Phone,Resolved,2022-08-27 11:54:10,2022-08-30 13:48:34
+159,1000000107,402043,2022-08-27 17:05:19,MDMS,Pushpendra Singh,Low,Any other issue - Smart Meter,Any other issue - Smart Meter,API,Resolved,2022-09-06 17:05:19,2022-08-30 13:50:35
+160,1000000101,541326,2022-08-29 15:17:32,MDMS,Rattnam Choubey,High,Excess/less Consumption,Charge Calculation/Consumption,Phone,Resolved,2022-08-30 15:17:32,2022-08-29 15:57:24
+161,1000000101,117018,2022-08-29 17:37:24,MDMS,Rattnam Choubey,High,Excess/less Charge Deduction,Bill / Invoice,Phone,Resolved,2022-08-30 17:37:24,2022-09-01 16:44:40
+162,1000000101,326254,2022-08-30 11:46:29,MDMS,Pushpendra Singh,High,Any other issue - Smart Meter,Other issue,Other,Resolved,2022-08-31 11:46:29,2022-09-07 18:05:12
+163,1000000107,249188,2022-08-30 12:11:50,MDMS,Pushpendra Singh,High,Any other issue - Smart Meter,Other issue,Phone,Resolved,2022-08-31 12:11:50,2022-09-01 16:18:45
+164,1000000101,588821,2022-08-30 14:04:40,MDMS,Pushpendra Singh,Low,New Development Related,New Development Related,Phone,Resolved,2022-09-09 14:04:40,2022-09-07 18:28:54
+165,1000000101,625998,2022-08-30 16:54:39,MDMS,Pushpendra Singh,High,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Resolved,2022-08-31 16:54:39,2022-09-01 16:15:15
+166,1000000107,574972,2022-08-31 13:18:15,MDMS,Pushpendra Singh,Low,Any other issue - Smart Meter,Other issue,Phone,Resolved,2022-09-10 13:18:15,2022-09-01 17:25:13
+167,1000000107,970875,2022-08-31 13:18:26,MDMS,Pushpendra Singh,Low,Any other issue - Smart Meter,Any other issue - Smart Meter,API,Resolved,2022-09-10 13:18:26,2022-09-01 17:20:38
+168,1000000101,478262,2022-09-02 11:12:27,MDMS,Pushpendra Singh,High,Any other issue - Smart Meter,Any other issue - Smart Meter,Other,Resolved,2022-09-03 11:12:27,2022-09-05 10:46:19
+169,1000000101,634058,2022-09-02 15:27:16,MDMS,Pushpendra Singh,Medium,New Development Related,New Development Related,Phone,Resolved,2022-09-05 15:27:16,2022-09-14 20:08:25
+170,1000000101,157640,2022-09-02 16:34:12,MDMS,Pushpendra Singh,High,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2022-09-03 16:34:12,2022-09-05 16:50:05
+171,1000000101,906274,2022-09-05 18:39:29,MDMS,Pushpendra Singh,High,Internal ID Creation,Internal ID Creation,Phone,Resolved,2022-09-06 18:39:29,2022-09-07 18:00:22
+172,1000000101,784657,2022-09-12 11:25:11,MDMS,Pushpendra Singh,High,Smart Meter (Query),Smart Meter (Query),Phone,Resolved,2022-09-13 11:25:11,2022-09-13 11:21:31
+173,1000000101,154834,2022-09-12 11:30:56,MDMS,Pushpendra Singh,High,Internal ID Creation,Internal ID Creation,Email,Resolved,2022-09-13 11:30:56,2022-09-12 12:17:00
+174,1000000101,339979,2022-09-16 10:07:31,MDMS,Pushpendra Singh,High,Internal ID Creation,Internal ID Creation,Other,Resolved,2022-09-17 10:07:31,2022-09-16 10:19:57
+175,1000000101,905773,2022-09-16 12:54:28,MDMS,Pushpendra Singh,Urgent,Any other issue - Smart Meter,Other issue,Phone,Resolved,2022-09-16 18:54:28,2022-09-28 13:52:50
+176,1000000107,733683,2022-09-16 13:37:57,MDMS,Pushpendra Singh,Urgent,Any other issue - Smart Meter,Other issue,Other,Resolved,2022-09-16 19:37:57,2022-09-16 17:01:56
+177,1000000101,655668,2022-09-16 18:09:37,MDMS,Pushpendra Singh,Low,Any other issue - Smart Meter,Other issue,Phone,Resolved,2022-09-26 18:09:37,2022-09-19 17:55:51
+178,1000000101,152183,2022-09-17 10:48:02,MDMS,Pushpendra Singh,Urgent,Disconnection Related,Power Disconnection (Query),Email,Resolved,2022-09-17 16:48:02,2022-09-17 11:40:23
+179,1000000101,661895,2022-09-19 17:43:30,MDMS,Pushpendra Singh,Urgent,Any other issue - Smart Meter,Other issue,Phone,Resolved,2022-09-19 23:43:30,2022-10-11 18:45:43
+180,1000000103,385668,2022-09-20 17:00:32,MDMS,Pushpendra Singh,Urgent,Any other issue - Smart Meter,Any other issue - Smart Meter,Phone,Resolved,2022-09-20 23:00:32,2022-09-23 16:50:43
+181,1000000101,553122,2022-09-21 11:19:39,MDMS,Pushpendra Singh,High,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2022-09-22 11:19:39,2022-09-27 12:28:56
+182,1000000101,441044,2022-09-21 11:41:48,MDMS,Pushpendra Singh,High,New Development Related,New Development Related,Email,Resolved,2022-09-22 11:41:48,2022-10-07 10:16:08
+183,1000000101,935640,2022-09-22 11:21:24,MDMS,Pushpendra Singh,High,Any other issue - Smart Meter,Other issue,Email,Resolved,2022-09-23 11:21:24,2022-09-23 16:49:14
+184,1000000101,407504,2022-09-22 14:56:59,MDMS,Pushpendra Singh,High,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2022-09-23 14:56:59,2022-10-27 10:11:26
+185,1000000101,891438,2022-09-23 11:05:44,MDMS,Pushpendra Singh,High,Internal ID Creation,Internal ID Creation,Phone,Resolved,2022-09-24 11:05:44,2022-09-23 18:34:25
+186,1000000101,459208,2022-09-23 16:35:55,MDMS,Pushpendra Singh,High,Any other issue - Smart Meter,Any other issue - Smart Meter,Email,Resolved,2022-09-24 16:35:55,2022-10-07 10:20:02
+187,1000000101,349111,2022-09-24 15:34:41,MDMS,Pushpendra Singh,Low,Internal ID Creation,Internal ID Creation,Email,Resolved,2022-10-04 15:34:41,2022-09-24 21:32:32
+188,1000000101,843404,2022-09-27 11:07:04,MDMS,Pushpendra Singh,High,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2022-09-28 11:07:04,2022-09-28 13:39:17
+189,108463467,483165,2022-09-28 13:32:05,MDMS,Pushpendra Singh,High,Excess/less Consumption,Charge Calculation/Consumption,Email,Resolved,2022-09-29 13:32:05,2022-10-13 10:41:16
+190,1000000101,350168,2022-09-29 12:29:10,MDMS,Pushpendra Singh,Urgent,Any other issue - Smart Meter,Other issue,Email,Resolved,2022-09-29 18:29:10,2022-10-07 10:17:36
+191,1000000101,734078,2022-10-06 16:27:16,MDMS,Pushpendra Singh,High,MDMS Related,Any Other,Email,Resolved,2022-10-07 16:27:16,2022-10-27 09:53:33
+192,1000000101,466279,2022-10-10 17:05:38,MDMS,Pushpendra Singh,High,MDMS Related,Any Other,Email,Resolved,2022-10-11 17:05:38,2022-10-11 15:16:58
+193,1000000101,876435,2022-10-10 17:47:50,MDMS,Pushpendra Singh,High,MDMS Related,NVE Case,Email,Resolved,2022-10-11 17:47:50,2022-10-11 14:53:59
+194,1000000101,385599,2022-10-10 18:23:27,MDMS,Pushpendra Singh,Low,Any other issue - Smart Meter,Other issue,Phone,Resolved,2022-10-20 18:23:27,2022-10-14 16:02:16
+195,1000000101,383653,2022-10-11 17:14:57,MDMS,Pushpendra Singh,High,MDMS Related,Any Other,Email,Resolved,2022-10-12 17:14:57,2022-10-14 16:04:35
+196,1000000101,825413,2022-10-13 10:30:14,MDMS,Pushpendra Singh,Low,MDMS Related,Any Other,Email,Resolved,2022-10-23 10:30:14,2022-10-17 00:21:49
+197,1000000101,493640,2022-10-15 11:31:57,MDMS,Rattnam Choubey,High,Non-smart meter related,Non-Smart meter related,Email,Resolved,2022-10-16 11:31:57,2022-11-01 15:58:19
+198,1000000101,642121,2022-10-16 11:53:31,MDMS,Pushpendra Singh,High,Excess/less Charge Deduction,Excess/less charge Deduction rel,Phone,Resolved,2022-10-17 11:53:31,2022-10-27 09:59:49
+199,1000000107,438441,2022-10-19 12:05:14,MDMS,Admin User,Low,MDMS Related,BIRT Report,Phone,Resolved,2022-10-29 12:05:14,2022-11-02 16:36:10
+200,1000000101,641673,2022-11-04 14:00:11,MDMS,Pushpendra Singh,High,Non-smart meter related,Non-Smart meter related,Email,Resolved,2022-11-05 14:00:11,2022-11-04 15:04:22
+201,1000000101,586647,2022-11-04 14:52:36,MDMS,Pushpendra Singh,High,Non-smart meter related,Non-Smart meter related,Email,Resolved,2022-11-05 14:52:36,2022-11-07 12:40:45
+202,100949755,964733,2022-11-07 11:39:24,MDMS,Rattnam Choubey,High,MDMS Related,Any Other,Email,Resolved,2022-11-08 11:39:24,2022-11-13 19:08:21
+203,100970053,856791,2022-11-07 11:43:19,MDMS,Rattnam Choubey,High,MDMS Related,Any Other,Email,Resolved,2022-11-08 11:43:19,2022-11-07 12:43:15
+204,1000000101,702109,2022-11-09 11:19:42,MDMS,Pushpendra Singh,High,Non-smart meter related,Non-Smart meter related,Phone,Resolved,2022-11-10 11:19:42,2022-11-09 11:39:18
+205,1000000103,624781,2022-11-21 12:09:13,MDMS,Pushpendra Singh,High,App related issue (SCM),SCM App (Login issues),Email,Resolved,2022-11-22 12:09:13,2022-12-29 10:10:01
+206,1000000101,482116,2022-11-21 17:14:32,MDMS,Pushpendra Singh,Medium,MDMS Related,Any Other,Email,Resolved,2022-11-24 17:14:32,2022-11-22 11:41:16
+207,1000000101,464648,2022-11-22 12:50:18,MDMS,Pushpendra Singh,High,MDMS Related,NVE Case,Phone,Resolved,2022-11-23 12:50:18,2022-11-28 19:03:44
+208,1000000101,262737,2022-11-28 13:52:55,MDMS,Pushpendra Singh,High,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2022-11-29 13:52:55,2022-11-29 10:39:28
+209,1000000101,591025,2022-11-29 17:54:08,MDMS,Pushpendra Singh,High,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2022-11-30 17:54:08,2022-12-23 10:33:30
+210,400157919,117041,2022-11-30 11:22:38,MDMS,Pushpendra Singh,Low,MDMS Related,Any Other,Email,Resolved,2022-12-10 11:22:38,2022-12-23 10:48:21
+211,1000000101,278806,2022-12-01 11:26:22,MDMS,Pushpendra Singh,Medium,Excess/less Consumption,Charge Calculation/Consumption,Email,Resolved,2022-12-04 11:26:22,2022-12-06 11:49:00
+212,1000000101,871321,2022-12-03 13:00:20,MDMS,Pushpendra Singh,Low,Internal ID Creation,Internal ID Creation,Email,Resolved,2022-12-13 13:00:20,2022-12-03 14:49:32
+213,1000000101,142391,2022-12-05 12:55:26,MDMS,Pushpendra Singh,Low,MDMS Related,Any Other,Email,Resolved,2022-12-15 12:55:26,2022-12-29 10:05:00
+214,1000000101,769029,2022-12-05 13:24:34,MDMS,Gayatri kulkarni,Low,MDMS Related,BIRT Report,Phone,Resolved,2022-12-15 13:24:34,2022-12-06 14:04:46
+215,1000000101,856514,2022-12-06 10:25:09,MDMS,Pushpendra Singh,Low,Any other issue - Smart Meter,Other issue,Phone,Resolved,2022-12-16 10:25:09,2022-12-07 12:19:15
+216,1000000101,236270,2022-12-07 17:58:36,MDMS,Pushpendra Singh,Urgent,Excess/less Consumption,Charge Calculation/Consumption,Other,Resolved,2022-12-07 23:58:36,2022-12-07 19:12:16
+217,1000000103,901717,2022-12-12 12:39:52,MDMS,Gayatri kulkarni,Medium,New Development Related,New Development Related,Email,Open,2022-12-15 12:39:52,
+218,1000000103,104704,2022-12-12 12:42:27,MDMS,Pushpendra Singh,Medium,New Development Related,New Development Related,Email,Open,2022-12-15 12:42:27,
+219,1000000103,320178,2022-12-12 12:44:50,MDMS,Pushpendra Singh,Medium,New Development Related,New Development Related,Email,Open,2022-12-15 12:44:50,
+220,400171220,794336,2022-12-14 13:30:11,MDMS,Pushpendra Singh,Low,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2022-12-24 13:30:11,2022-12-22 15:40:14
+221,1000000101,704871,2022-12-23 15:02:14,MDMS,Pushpendra Singh,Low,Internal ID Creation,Internal ID Creation,Email,Resolved,2023-01-02 15:02:14,2022-12-23 15:30:49
+222,1000000101,627088,2023-01-02 11:40:04,MDMS,Gayatri kulkarni,Low,Any other issue - Smart Meter,Other issue,Email,Resolved,2023-01-12 11:40:04,2023-01-04 10:26:01
+223,1000000101,174191,2023-01-03 15:58:33,MDMS,Pushpendra Singh,Low,Smart Meter (Query),Smart Meter (Query),Other,Resolved,2023-01-13 15:58:33,2023-01-06 17:49:19
+224,1000000101,122580,2023-01-06 17:38:47,MDMS,Pushpendra Singh,Medium,MDMS Related,BIRT Report,Email,Resolved,2023-01-09 17:38:47,2023-01-12 11:01:44
+225,1000000101,276263,2023-01-06 18:04:26,MDMS,Pushpendra Singh,Medium,MDMS Related,BIRT Report,Email,Resolved,2023-01-09 18:04:26,2023-01-09 10:03:27
+226,1000000101,397243,2023-01-10 20:40:37,MDMS,Gayatri kulkarni,Low,Disconnection Related,Power Disconnected (Low balance),Other,Closed,2023-01-20 20:40:37,2023-01-10 20:49:14
+227,1000000107,376821,2023-01-12 11:26:19,MDMS,Rattnam Choubey,Low,Excess/less Charge Deduction,Bill / Invoice,Phone,Resolved,2023-01-22 11:26:19,2023-02-08 18:27:16
+228,1000000101,938455,2023-01-16 13:56:13,MDMS,Pushpendra Singh,Low,Internal ID Creation,Internal ID Creation,Email,Resolved,2023-01-26 13:56:13,2023-01-16 17:35:14
+229,1000000101,974848,2023-01-18 11:53:05,MDMS,Gayatri kulkarni,Low,New Development Related,New Development Related,Email,Resolved,2023-01-28 11:53:05,2023-02-08 18:07:37
+230,1000000101,771946,2023-01-18 12:01:12,MDMS,Gayatri kulkarni,Low,Smart Meter (Query),Smart Meter (Query),Phone,Resolved,2023-01-28 12:01:12,2023-01-18 12:06:43
+231,1000000101,564679,2023-01-18 12:06:31,MDMS,Pushpendra Singh,Low,MDMS Related,Any Other,Email,Resolved,2023-01-28 12:06:31,2023-01-20 16:04:58
+232,1000000101,474506,2023-01-19 12:34:34,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Email,Resolved,2023-01-29 12:34:34,2023-02-08 18:04:55
+233,1000000101,785992,2023-01-21 14:57:43,MDMS,Pushpendra Singh,Low,Non-smart meter related,Non-Smart meter related,Email,Resolved,2023-01-31 14:57:43,2023-01-23 09:41:38
+234,1000000101,426296,2023-01-23 10:40:31,MDMS,Pushpendra Singh,Low,Internal ID Creation,Internal ID Creation,Email,Resolved,2023-02-02 10:40:31,2023-01-23 11:02:50
+235,1000000101,601389,2023-01-23 10:58:41,MDMS,Pushpendra Singh,Low,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2023-02-02 10:58:41,2023-01-24 16:40:36
+236,101252752,390518,2023-01-24 10:51:09,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Email,Resolved,2023-02-03 10:51:09,2023-02-08 15:28:59
+237,1000000107,831436,2023-01-24 11:56:15,MDMS,Gayatri kulkarni,Low,Any other issue - Smart Meter,Other issue,Phone,Resolved,2023-02-03 11:56:15,2023-07-21 11:26:02
+238,1000000101,964870,2023-01-24 13:10:16,MDMS,Pushpendra Singh,Low,MDMS Related,NVE Case,Email,Resolved,2023-02-03 13:10:16,2023-01-24 18:14:26
+239,1000000101,203120,2023-01-28 09:31:00,MDMS,Pushpendra Singh,Low,MDMS Related,Any Other,Phone,Resolved,2023-02-07 09:31:00,2023-01-28 11:54:44
+240,1000000101,635736,2023-02-01 18:29:26,MDMS,Gayatri kulkarni,Low,Smart Meter (Query),Smart Meter (Query),Other,Resolved,2023-02-11 18:29:26,2023-02-08 15:07:00
+241,1000000101,426446,2023-02-08 10:23:07,MDMS,Gayatri kulkarni,Low,Smart Meter (Query),Smart Meter (Query),Phone,Resolved,2023-02-18 10:23:07,2023-02-08 15:09:18
+242,1000000101,974816,2023-02-08 14:25:34,MDMS,Gayatri kulkarni,Low,New Development Related,New Development Related,Phone,Resolved,2023-02-18 14:25:34,2023-02-08 18:02:00
+243,1000000101,468012,2023-02-10 12:39:52,MDMS,Gayatri kulkarni,High,MDMS Related,Slow RC/DC,Other,Resolved,2023-02-11 12:39:52,2023-02-16 11:31:16
+244,401612891,841809,2023-02-15 13:44:46,MDMS,Gayatri kulkarni,Low,MDMS Related,Billing determinants,Email,Resolved,2023-02-25 13:44:46,2023-02-16 11:43:30
+245,1000000101,938800,2023-02-23 10:49:58,MDMS,Gayatri kulkarni,Low,MDMS Related,NVE Case,Phone,Resolved,2023-03-05 10:49:58,2023-02-24 11:52:59
+246,1000000101,617450,2023-02-23 11:32:34,MDMS,Gayatri kulkarni,Medium,Smart Meter (Query),Smart Meter (Query),Email,Resolved,2023-02-26 11:32:34,2023-02-24 11:51:32
+247,1000000101,129647,2023-02-23 15:23:52,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Email,Resolved,2023-03-05 15:23:52,2023-04-27 14:00:18
+248,1000000101,856262,2023-02-23 15:29:25,MDMS,Rattnam Choubey,Low,MDMS Related,Any Other,Phone,Resolved,2023-03-05 15:29:25,2023-03-01 11:47:20
+249,1000000101,796025,2023-02-23 18:47:24,MDMS,Gayatri kulkarni,Low,MDMS Related,NVE Case,Email,Resolved,2023-03-05 18:47:24,2023-02-24 11:50:06
+250,12830040232,959226,2023-03-02 15:30:11,MDMS,Gayatri kulkarni,Medium,Excess/less Consumption,Charge Calculation/Consumption,Other,Resolved,2023-03-05 15:30:11,2023-03-17 16:10:12
+251,1000000101,488015,2023-03-03 15:24:02,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Other,Resolved,2023-03-13 15:24:02,2023-03-17 16:09:06
+252,101309260,936055,2023-03-03 16:47:56,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Other,Resolved,2023-03-13 16:47:56,2023-03-20 14:02:52
+253,1000000103,809182,2023-03-03 19:42:58,MDMS,Gayatri kulkarni,Low,App related issue (SCM),SCM Web Portal,Other,Resolved,2023-03-13 19:42:58,2023-03-17 17:41:21
+254,1000000107,461517,2023-03-11 12:24:57,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Email,Resolved,2023-03-14 12:24:57,2023-03-20 10:02:48
+255,1000000101,329448,2023-03-13 10:02:32,MDMS,Satyam kumar,Medium,MDMS Related,BIRT Report,Phone,Resolved,2023-03-16 10:02:32,2023-03-15 16:28:52
+256,1000000107,789766,2023-03-13 10:05:04,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Other,Resolved,2023-03-16 10:05:04,2023-03-20 10:02:05
+257,1000000107,412457,2023-03-14 10:11:11,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Email,Resolved,2023-03-17 10:11:11,2023-03-20 10:01:17
+258,1000000107,948785,2023-03-15 12:48:54,MDMS,Gayatri kulkarni,Medium,Excess/less Consumption,Charge Calculation/Consumption,Other,Resolved,2023-03-18 12:48:54,2023-03-20 14:18:30
+259,101663028,934549,2023-03-15 12:52:15,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Other,Closed,2023-03-25 12:52:15,2023-03-31 15:20:52
+260,1000000101,824237,2023-03-16 17:39:52,MDMS,Gayatri kulkarni,Low,MDMS Related,SM Replacement Status,Email,Resolved,2023-03-26 17:39:52,2023-03-20 09:54:54
+261,1000000107,672168,2023-03-18 11:28:30,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Other,Resolved,2023-03-28 11:28:30,2023-03-20 09:57:37
+262,1000000101,526148,2023-03-20 12:03:00,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Other,Resolved,2023-03-23 12:03:00,2023-04-25 16:15:16
+263,1000000107,637796,2023-03-21 11:57:10,MDMS,Gayatri kulkarni,Low,Any other issue - Smart Meter,Other issue,Phone,Resolved,2023-03-31 11:57:10,2023-04-27 13:42:06
+264,1000000101,527555,2023-03-21 16:27:45,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Other,Resolved,2023-03-24 16:27:45,2023-04-25 10:49:17
+265,1000000101,167890,2023-03-21 17:14:21,MDMS,Rattnam Choubey,Low,MDMS Related,Any Other,Other,In Process,2023-03-31 17:14:21,
+266,1000000101,793592,2023-03-27 10:52:23,MDMS,Gayatri kulkarni,Low,MDMS Related,NVE Case,Phone,Resolved,2023-04-06 10:52:23,2023-03-27 11:36:37
+267,1000000101,956421,2023-03-27 11:02:33,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Phone,Resolved,2023-04-06 11:02:33,2023-03-27 11:23:54
+268,1000000101,730482,2023-04-05 11:22:57,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Email,Resolved,2023-04-15 11:22:57,2023-04-21 10:51:50
+269,1000000101,577174,2023-04-06 15:23:39,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Other,Resolved,2023-04-09 15:23:39,2023-04-21 10:29:03
+270,1000000101,302525,2023-04-12 11:00:05,MDMS,Gayatri kulkarni,Low,MDMS Related,Billing determinants,Phone,Resolved,2023-04-22 11:00:05,2023-04-14 14:25:13
+271,1000000101,874516,2023-04-13 11:18:36,MDMS,Gayatri kulkarni,Low,MDMS Related,Billing determinants,Other,Resolved,2023-04-23 11:18:36,2023-04-14 14:25:19
+272,1000000101,398673,2023-04-15 12:23:18,MDMS,Rattnam Choubey,Low,MDMS Related,Any Other,Email,Resolved,2023-04-25 12:23:18,2023-04-26 15:55:45
+273,23230013228,718328,2023-04-15 15:44:44,MDMS,Rattnam Choubey,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Resolved,2023-04-18 15:44:44,2023-04-21 11:04:57
+274,1000000101,922730,2023-04-17 10:49:37,MDMS,Gayatri kulkarni,Low,Internal ID Creation,Internal ID Creation,Phone,Resolved,2023-04-27 10:49:37,2023-04-21 10:22:48
+275,1000000101,360233,2023-04-18 12:37:13,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Other,Resolved,2023-04-21 12:37:13,2023-04-21 10:30:43
+276,1000000101,682020,2023-04-20 10:27:16,MDMS,Gayatri kulkarni,Low,MDMS Related,NVE Case,Email,Resolved,2023-04-30 10:27:16,2023-04-21 10:50:27
+277,1000000101,182890,2023-04-20 17:42:46,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Other,Resolved,2023-04-30 17:42:46,2023-04-25 10:46:24
+278,1000000101,235921,2023-04-25 23:34:05,MDMS,Gayatri kulkarni,Medium,Recharge Related,Recharged but balance not update,Other,Resolved,2023-04-28 23:34:05,2023-04-28 10:17:33
+279,1000000101,669921,2023-04-26 21:06:54,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Other,Resolved,2023-04-29 21:06:54,2023-04-27 13:35:24
+280,1000000101,274014,2023-04-27 15:34:48,MDMS,Gayatri kulkarni,Low,MDMS Related,SM Replacement Status,Email,In Process,2023-05-07 15:34:48,
+281,1000000101,412536,2023-04-27 15:37:55,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Email,In Process,2023-05-07 15:37:55,
+282,1000000101,987266,2023-04-27 15:40:28,MDMS,Gayatri kulkarni,High,MDMS Related,UI Blank / Slowness,Email,In Process,2023-04-28 15:40:28,
+283,1000000101,698635,2023-05-02 10:54:49,MDMS,Gayatri kulkarni,Urgent,MDMS Related,Any Other,Other,Resolved,2023-05-02 16:54:49,2023-05-02 18:43:50
+284,1000000101,226238,2023-05-08 12:34:11,MDMS,Gayatri kulkarni,High,MDMS Related,UI Blank / Slowness,Other,Resolved,2023-05-09 12:34:11,2023-06-14 19:58:04
+285,1000000101,632935,2023-05-09 00:34:56,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Other,Resolved,2023-05-19 00:34:56,2023-05-10 10:38:22
+286,1000000101,504898,2023-05-09 10:45:58,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Other,Resolved,2023-05-12 10:45:58,2023-06-14 19:56:54
+287,1000000107,462352,2023-05-09 11:35:24,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Email,Resolved,2023-05-12 11:35:24,2023-06-14 19:51:01
+288,1000000107,669330,2023-05-13 14:37:19,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Phone,Resolved,2023-05-16 14:37:19,2023-06-11 19:14:42
+289,1000000107,803526,2023-05-16 12:25:22,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Other,Resolved,2023-05-19 12:25:22,2023-06-11 19:19:26
+290,1000000101,635663,2023-05-16 16:46:23,MDMS,Gayatri kulkarni,Medium,Notification Related,Notifications (Welcome Message),Phone,Resolved,2023-05-19 16:46:23,2023-06-14 19:49:22
+291,400556017,441735,2023-05-19 10:37:06,MDMS,Rattnam Choubey,Medium,Any other issue - Smart Meter,Smart Meter (Non Communicating),Phone,Resolved,2023-05-22 10:37:06,2023-07-21 08:42:27
+292,1000000101,719790,2023-05-19 15:26:22,MDMS,Rattnam Choubey,Urgent,MDMS Related,Service Request related,Email,Resolved,2023-05-19 21:26:22,2023-07-21 11:42:20
+293,1000000101,237960,2023-05-20 13:19:34,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Other,Resolved,2023-05-23 13:19:34,2023-06-11 19:30:53
+294,1000000107,870380,2023-05-23 13:05:31,MDMS,Rattnam Choubey,Medium,Recharge Related,Recharged but balance not update,Other,Resolved,2023-05-26 13:05:31,2023-05-23 18:38:56
+295,1000000101,455447,2023-05-23 15:15:46,MDMS,Gayatri kulkarni,Low,MDMS Related,NVE Case,Other,Resolved,2023-06-02 15:15:46,2023-06-11 19:25:02
+296,1000000101,435617,2023-05-23 17:37:00,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Phone,Resolved,2023-06-02 17:37:00,2023-06-11 19:24:07
+297,1000000107,569147,2023-05-25 11:05:46,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Other,Resolved,2023-05-28 11:05:46,2023-07-21 11:25:16
+298,1000000101,431343,2023-05-29 10:48:44,MDMS,Gayatri kulkarni,Medium,Recharge Related,Recharged but balance not update,Other,Resolved,2023-06-01 10:48:44,2023-06-11 19:26:58
+299,1000000101,282448,2023-05-29 14:33:23,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Other,Resolved,2023-06-08 14:33:23,2023-06-11 19:16:45
+300,1000000101,542794,2023-05-30 11:25:19,MDMS,Gayatri kulkarni,Low,Internal ID Creation,Internal ID Creation,Phone,Resolved,2023-06-09 11:25:19,2023-07-21 11:44:50
+301,1000000101,181605,2023-05-30 11:54:38,MDMS,Gayatri kulkarni,Medium,Recharge Related,Recharged but balance not update,Other,Resolved,2023-06-02 11:54:38,2023-06-11 19:22:30
+302,102484657,104914,2023-05-30 16:28:12,MDMS,Rattnam Choubey,Medium,Any other issue - Smart Meter,Smart Meter (Non Communicating),Phone,Resolved,2023-06-02 16:28:12,2023-07-21 11:32:44
+303,1000000106,641985,2023-05-31 10:52:58,MDMS,Gayatri kulkarni,Low,Any other issue - Smart Meter,Other issue,Phone,Resolved,2023-06-10 10:52:58,2023-06-14 19:47:31
+304,1000000101,509268,2023-05-31 12:23:28,MDMS,Gayatri kulkarni,Medium,Recharge Related,Recharged but balance not update,Other,Resolved,2023-06-03 12:23:28,2023-06-11 19:12:23
+305,1000000101,564004,2023-05-31 17:26:47,MDMS,Gayatri kulkarni,Medium,Notification Related,Notifications (Welcome Message),Other,Resolved,2023-06-03 17:26:47,2023-06-14 19:46:03
+306,1000000101,232192,2023-06-01 12:26:22,MDMS,Gayatri kulkarni,Low,HES ( Head end System),Any Other,Email,Resolved,2023-06-11 12:26:22,2023-06-14 21:09:59
+307,1000000101,697806,2023-06-06 11:44:34,MDMS,Gayatri kulkarni,Low,MDMS Related,NVE Case,Email,Resolved,2023-06-16 11:44:34,2023-06-11 19:11:08
+308,1000000101,966924,2023-06-08 11:56:21,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Other,Resolved,2023-06-18 11:56:21,2023-06-14 21:06:10
+309,1000000101,229639,2023-06-08 12:01:30,MDMS,Gayatri kulkarni,High,MDMS Related,Slow RC/DC,Other,Resolved,2023-06-09 12:01:30,2023-06-11 19:28:38
+310,1000000105,931733,2023-06-08 17:20:27,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Email,Resolved,2023-06-18 17:20:27,2023-06-11 19:10:18
+311,1000000101,480668,2023-06-09 11:14:59,MDMS,Gayatri kulkarni,Urgent,Infrastructure,Disk alert,Other,Resolved,2023-06-09 17:14:59,2023-06-11 19:08:18
+312,1000000101,798435,2023-06-12 17:30:52,MDMS,Gayatri kulkarni,Medium,Notification Related,Notifications (Welcome Message),Email,Resolved,2023-06-15 17:30:52,2023-06-14 19:22:42
+313,1000000101,522775,2023-06-13 10:35:24,MDMS,Gayatri kulkarni,Low,Infrastructure,DB not updating,Other,Resolved,2023-06-23 10:35:24,2023-06-14 19:18:48
+314,102066755,194216,2023-06-13 12:29:33,MDMS,,Low,MDMS Related,Billing determinants,Phone,Open,2023-06-23 12:29:33,
+315,102138798,392853,2023-06-13 15:02:19,MDMS,Rattnam Choubey,High,MDMS Related,Any Other,API,Resolved,2023-06-14 15:02:19,2023-07-21 11:31:47
+316,1000000101,551516,2023-06-14 12:51:27,MDMS,Gayatri kulkarni,Low,MDMS Related,NVE Case,Email,Resolved,2023-06-24 12:51:27,2023-06-14 21:09:06
+317,1000000101,153362,2023-06-15 15:43:11,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Other,In Process,2023-06-25 15:43:11,
+318,1000000101,922427,2023-06-16 10:11:28,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Phone,Resolved,2023-06-26 10:11:28,2023-07-12 14:17:10
+319,1000000101,758860,2023-06-16 17:44:16,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Other,Resolved,2023-06-26 17:44:16,2023-07-21 11:40:31
+320,1000000101,723343,2023-06-17 12:26:12,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Email,In Process,2023-06-27 12:26:12,
+321,1000000101,977820,2023-06-19 15:05:00,MDMS,Gayatri kulkarni,Urgent,MDMS Related,Service Request related,Phone,Resolved,2023-06-19 21:05:00,2023-07-21 11:21:05
+322,1000000101,277220,2023-06-19 17:24:13,MDMS,Gayatri kulkarni,Urgent,MDMS Related,Service Request related,Email,Resolved,2023-06-19 23:24:13,2023-07-12 14:09:15
+323,100992904,771665,2023-06-20 13:12:36,MDMS,Rattnam Choubey,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Resolved,2023-06-23 13:12:36,2023-06-23 13:01:17
+324,108480494,793002,2023-06-20 13:18:09,MDMS,Rattnam Choubey,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Resolved,2023-06-23 13:18:09,2023-06-23 13:16:46
+325,1000000107,350699,2023-06-21 18:37:50,MDMS,Rattnam Choubey,Medium,Excess/less Charge Deduction,Excess/less charge Deduction rel,Phone,Resolved,2023-06-24 18:37:50,2023-06-23 13:22:40
+326,1000000102,284257,2023-06-22 16:54:09,MDMS,Gayatri kulkarni,High,HES ( Head end System),RC / DC Issues,Phone,Resolved,2023-06-23 16:54:09,2023-07-21 11:32:30
+327,1000000101,367570,2023-06-22 17:32:53,MDMS,,Low,MDMS Related,Any Other,Phone,Open,2023-07-02 17:32:53,
+328,116207567447,448024,2023-06-23 09:12:31,MDMS,Gayatri kulkarni,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Resolved,2023-06-26 09:12:31,2023-07-12 14:53:16
+329,1000000107,260137,2023-06-23 12:31:17,MDMS,Rattnam Choubey,Medium,Excess/less Charge Deduction,Excess/less charge Deduction rel,Other,Resolved,2023-06-26 12:31:17,2023-06-23 13:37:17
+330,100983280,357758,2023-06-24 09:57:38,MDMS,Rattnam Choubey,Medium,Excess/less Consumption,Charge Calculation/Consumption,Email,Resolved,2023-06-27 09:57:38,2023-07-21 11:16:44
+331,101182835,636241,2023-06-26 13:36:13,MDMS,Rattnam Choubey,Medium,Excess/less Consumption,Charge Calculation/Consumption,Email,Resolved,2023-06-29 13:36:13,2023-07-21 11:15:37
+332,102417111,215437,2023-06-26 13:38:31,MDMS,Rattnam Choubey,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Resolved,2023-06-29 13:38:31,2023-07-21 11:14:20
+333,101280576,163277,2023-06-26 20:36:32,MDMS,Gayatri kulkarni,Medium,Excess/less Consumption,Charge Calculation/Consumption,Email,Resolved,2023-06-29 20:36:32,2023-07-21 11:19:15
+334,1000000101,414299,2023-07-10 11:59:47,MDMS,Gayatri kulkarni,High,MDMS Related,UI Blank / Slowness,Phone,Resolved,2023-07-11 11:59:47,2023-07-12 14:30:51
+335,108319116,874433,2023-07-10 13:10:31,MDMS,Gayatri kulkarni,Low,MDMS Related,SM Replacement Status,Email,Resolved,2023-07-20 13:10:31,2023-07-12 14:15:54
+336,1000000101,809215,2023-07-10 13:22:05,MDMS,Gayatri kulkarni,Low,MDMS Related,SM Replacement Status,Email,Resolved,2023-07-20 13:22:05,2023-07-12 14:18:06
+337,400540869,876494,2023-07-10 14:06:50,MDMS,Rattnam Choubey,Medium,Any other issue - Smart Meter,Smart Meter (Non Communicating),Phone,Resolved,2023-07-13 14:06:50,2023-07-21 11:07:21
+338,1000000101,165850,2023-07-10 15:28:10,MDMS,Rattnam Choubey,Urgent,Excess/less Charge Deduction,Excess/less charge Deduction rel,Email,Resolved,2023-07-10 21:28:10,2023-07-10 19:04:51
+339,1000000107,827493,2023-07-10 16:05:02,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Other,Resolved,2023-07-13 16:05:02,2023-07-12 14:07:55
+340,1000000101,165210,2023-07-10 16:12:19,MDMS,Gayatri kulkarni,Low,MDMS Related,Billing determinants,Phone,In Process,2023-07-20 16:12:19,
+341,1000000101,364569,2023-07-10 16:45:19,MDMS,Gayatri kulkarni,Low,Any other issue - Smart Meter,Other issue,Email,Resolved,2023-07-20 16:45:19,2023-07-12 14:06:10
+342,1000000101,133459,2023-07-10 17:18:48,MDMS,Rattnam Choubey,Low,MDMS Related,Any Other,Phone,Resolved,2023-07-20 17:18:48,2023-07-12 14:46:54
+343,1000000101,832633,2023-07-11 10:21:18,MDMS,Gayatri kulkarni,High,MDMS Related,UI Blank / Slowness,Phone,Resolved,2023-07-12 10:21:18,2023-07-12 14:28:57
+344,1000000103,418054,2023-07-11 10:53:01,MDMS,Gayatri kulkarni,Low,Any other issue - Smart Meter,Other issue,Email,Resolved,2023-07-21 10:53:01,2023-07-21 11:31:40
+345,101454166,112323,2023-07-11 14:40:40,MDMS,Gayatri kulkarni,High,MDMS Related,Any Other,Phone,Resolved,2023-07-12 14:40:40,2023-07-21 11:18:08
+346,100602173,188640,2023-07-11 15:00:46,MDMS,,Low,MDMS Related,Billing determinants,Phone,In Process,2023-07-21 15:00:46,
+347,1000000101,595457,2023-07-11 15:47:49,MDMS,,Low,MDMS Related,Any Other,Email,In Process,2023-07-21 15:47:49,
+348,1000000101,896824,2023-07-11 16:35:52,MDMS,Gayatri kulkarni,Urgent,MDMS Related,Service Request related,Phone,Resolved,2023-07-11 22:35:52,2023-07-21 11:15:38
+349,102242145,337442,2023-07-11 16:49:08,MDMS,Rattnam Choubey,High,Excess/less Charge Deduction,Excess/less charge Deduction rel,Phone,Resolved,2023-07-12 16:49:08,2023-07-21 08:44:18
+350,101326350,331720,2023-07-11 17:01:17,MDMS,Rattnam Choubey,Medium,Any other issue - Smart Meter,Other issue,Email,In Process,2023-07-14 17:01:17,
+351,1000000101,348117,2023-07-11 18:28:32,MDMS,Gayatri kulkarni,Urgent,MDMS Related,Service Request related,Phone,Resolved,2023-07-12 00:28:32,2023-07-12 14:25:37
+352,1000000101,126260,2023-07-12 13:18:25,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Phone,Resolved,2023-07-22 13:18:25,2023-07-21 11:14:18
+353,1000000101,697469,2023-07-12 15:19:27,MDMS,Rattnam Choubey,Low,Excess/less Charge Deduction,Bill / Invoice,Other,Resolved,2023-07-22 15:19:27,2023-07-12 15:27:43
+354,1000000101,362854,2023-07-12 17:03:21,MDMS,Rattnam Choubey,Medium,Excess/less Charge Deduction,Excess/less charge Deduction rel,Phone,Resolved,2023-07-15 17:03:21,2023-07-17 15:02:23
+355,1000000101,784966,2023-07-14 14:47:11,MDMS,Rattnam Choubey,Low,MDMS Related,Any Other,Phone,Resolved,2023-07-24 14:47:11,2023-08-18 18:07:52
+356,1000000101,312784,2023-07-14 15:08:24,MDMS,Gayatri kulkarni,Medium,Notification Related,Notifications (Welcome Message),Phone,Resolved,2023-07-17 15:08:24,2023-07-21 11:30:25
+357,1000000101,676655,2023-07-14 17:23:01,MDMS,Rattnam Choubey,Low,MDMS Related,Any Other,Phone,Resolved,2023-07-24 17:23:01,2023-09-14 14:05:27
+358,1000000107,588948,2023-07-15 12:44:15,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Other,Resolved,2023-07-18 12:44:15,2023-07-21 11:29:30
+359,402203176,504141,2023-07-17 11:57:26,MDMS,,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Open,2023-07-20 11:57:26,
+360,1000000101,265697,2023-07-17 14:48:59,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Phone,Resolved,2023-07-20 14:48:59,2023-07-21 11:28:03
+361,101278288,680834,2023-07-17 15:02:15,MDMS,Rattnam Choubey,Medium,Excess/less Charge Deduction,Excess/less charge Deduction rel,Phone,Resolved,2023-07-20 15:02:15,2023-07-17 15:18:57
+362,101313812,572465,2023-07-17 17:20:17,MDMS,Rattnam Choubey,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Resolved,2023-07-20 17:20:17,2023-08-11 19:07:11
+363,400566270,343282,2023-07-17 17:30:56,MDMS,Rattnam Choubey,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Resolved,2023-07-20 17:30:56,2023-08-11 19:06:41
+364,101318409,257819,2023-07-17 20:43:54,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Phone,Resolved,2023-07-27 20:43:54,2023-07-21 11:39:00
+365,101320822,222422,2023-07-18 11:22:56,MDMS,Rattnam Choubey,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Resolved,2023-07-21 11:22:56,2023-08-11 19:06:09
+366,1000000101,223155,2023-07-18 11:41:26,MDMS,Gayatri kulkarni,Low,MDMS Related,NVE Case,Phone,Resolved,2023-07-28 11:41:26,2023-07-21 11:36:15
+367,101163200,612212,2023-07-18 22:46:17,MDMS,Rattnam Choubey,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Resolved,2023-07-21 22:46:17,2023-08-11 19:05:39
+368,102414764,783442,2023-07-19 11:19:07,MDMS,Rattnam Choubey,Medium,Excess/less Charge Deduction,Excess/less charge Deduction rel,Phone,Resolved,2023-07-22 11:19:07,2023-08-11 19:01:21
+369,1000000101,972482,2023-07-23 11:48:52,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Email,Resolved,2023-08-02 11:48:52,2023-07-28 17:00:06
+370,1000000101,715329,2023-07-24 10:30:00,MDMS,Gayatri kulkarni,Urgent,MDMS Related,Service Request related,Phone,Resolved,2023-07-24 16:30:00,2023-07-28 16:57:54
+371,108578808,982474,2023-07-25 15:27:21,MDMS,Rattnam Choubey,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Resolved,2023-07-28 15:27:21,2023-08-11 19:10:30
+372,101290770,890652,2023-07-25 16:14:12,MDMS,,Low,MDMS Related,XML Correction / Deletion,Phone,Open,2023-08-04 16:14:12,
+373,101290575,679004,2023-07-25 16:27:27,MDMS,,Low,MDMS Related,XML Correction / Deletion,Phone,Open,2023-08-04 16:27:27,
+374,101115415,913920,2023-07-25 17:22:57,MDMS,,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Open,2023-07-28 17:22:57,
+375,1000000101,390298,2023-07-25 17:42:18,MDMS,Rattnam Choubey,Low,MDMS Related,NVE Case,Phone,Resolved,2023-08-04 17:42:18,2023-07-26 12:55:56
+376,1000000101,490405,2023-07-26 12:14:07,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Phone,Resolved,2023-07-29 12:14:07,2023-07-28 16:41:32
+377,101125671,330735,2023-07-27 14:00:44,MDMS,,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Open,2023-07-30 14:00:44,
+378,1000000101,319589,2023-07-28 12:31:55,MDMS,Gayatri kulkarni,Low,MDMS Related,SM Replacement Status,Phone,Resolved,2023-08-07 12:31:55,2023-07-28 15:48:25
+379,1000000101,794206,2023-07-28 13:18:00,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Email,Resolved,2023-08-07 13:18:00,2023-07-28 16:39:51
+380,100956399,225381,2023-07-28 16:38:45,MDMS,,Low,MDMS Related,XML Correction / Deletion,Phone,Open,2023-08-07 16:38:45,
+381,101345121,689206,2023-07-28 16:51:35,MDMS,,Low,MDMS Related,Any Other,Phone,Open,2023-08-07 16:51:35,
+382,1000000101,451829,2023-07-31 11:27:50,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Phone,Resolved,2023-08-10 11:27:50,2023-08-04 16:35:01
+383,101251641,934223,2023-07-31 14:21:28,MDMS,Gayatri kulkarni,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Open,2023-08-03 14:21:28,
+384,1000000101,864394,2023-08-01 10:51:44,MDMS,Gayatri kulkarni,High,MDMS Related,PI| Middleware Issue,Other,Resolved,2023-08-02 10:51:44,2023-08-04 16:32:05
+385,1000000101,120940,2023-08-02 16:21:36,MDMS,Gayatri kulkarni,Medium,Notification Related,Notifications (Welcome Message),Phone,Resolved,2023-08-05 16:21:36,2023-08-02 20:01:02
+386,402165559,915937,2023-08-03 14:00:19,MDMS,,Low,MDMS Related,Any Other,Phone,Open,2023-08-13 14:00:19,
+387,1000000101,774875,2023-08-03 14:04:53,MDMS,Gayatri kulkarni,High,Internal ID Creation,Internal ID Creation,Phone,Resolved,2023-08-04 14:04:53,2023-08-04 16:44:01
+388,402130205,313134,2023-08-03 14:06:40,MDMS,,Low,MDMS Related,Any Other,Phone,Open,2023-08-13 14:06:40,
+389,102408654,529325,2023-08-03 14:16:14,MDMS,,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Open,2023-08-06 14:16:14,
+390,1000000107,786504,2023-08-03 16:01:55,MDMS,Rattnam Choubey,Medium,Any other issue - Smart Meter,Smart Meter (Non Communicating),Phone,Resolved,2023-08-06 16:01:55,2023-08-29 17:07:12
+391,1000000101,958448,2023-08-03 16:03:42,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Other,Resolved,2023-08-13 16:03:42,2023-08-04 17:31:19
+392,1000000101,460415,2023-08-03 17:02:40,MDMS,Rattnam Choubey,Low,MDMS Related,Any Other,Phone,Resolved,2023-08-13 17:02:40,2023-09-14 14:04:37
+393,1000000101,957959,2023-08-04 12:04:44,MDMS,Gayatri kulkarni,Urgent,MDMS Related,Any Other,Phone,In Process,2023-08-04 18:04:44,
+394,1000000101,582408,2023-08-04 16:11:48,MDMS,Rattnam Choubey,Low,MDMS Related,Any Other,Email,Resolved,2023-08-14 16:11:48,2023-08-11 19:09:51
+395,1000000101,900749,2023-08-07 08:22:52,MDMS,Ajay chalke,Low,MDMS Related,Any Other,Email,Open,2023-08-17 08:22:52,
+396,1000000101,387549,2023-08-07 11:40:41,MDMS,Gayatri kulkarni,Low,Infrastructure,Table not found,Other,Resolved,2023-08-17 11:40:41,2023-08-11 12:30:07
+397,400545735,201741,2023-08-07 17:00:59,MDMS,Rattnam Choubey,High,Balance / Recharge,Balance/Recharge (Query),Phone,Resolved,2023-08-08 17:00:59,2023-08-11 18:52:57
+398,1000000101,446790,2023-08-08 14:07:49,MDMS,Gayatri kulkarni,Medium,MDMS Related,XML Correction / Deletion,Email,Resolved,2023-08-11 14:07:49,2023-08-11 12:28:46
+399,1000000101,905620,2023-08-08 17:38:37,MDMS,,Low,MDMS Related,Any Other,Email,Open,2023-08-18 17:38:37,
+400,108668611,167621,2023-08-08 17:53:34,MDMS,,Low,MDMS Related,XML Correction / Deletion,Phone,Open,2023-08-18 17:53:34,
+401,1000000101,966117,2023-08-09 01:22:20,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Phone,Resolved,2023-08-19 01:22:20,2023-08-18 10:23:30
+402,1000000101,416704,2023-08-10 00:53:03,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Phone,Resolved,2023-08-20 00:53:03,2023-08-18 10:22:54
+403,1000000101,488961,2023-08-10 10:47:18,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Email,In Process,2023-08-20 10:47:18,
+404,1000000101,986159,2023-08-10 11:34:33,MDMS,Gayatri kulkarni,Low,Internal ID Creation,Internal ID Creation,Email,Resolved,2023-08-20 11:34:33,2023-08-11 12:31:53
+405,1000000104,534829,2023-08-10 13:11:57,MDMS,Gayatri kulkarni,Low,WFM (Work force management),Any Other issue (WFM),Phone,Resolved,2023-08-20 13:11:57,2023-08-11 12:27:07
+406,1000000101,433464,2023-08-10 23:40:37,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Phone,Resolved,2023-08-20 23:40:37,2023-08-18 10:22:02
+407,1000000107,655359,2023-08-11 12:07:58,MDMS,,Medium,MDMS Related,BIRT Report,Other,Open,2023-08-14 12:07:58,
+408,1000000107,563327,2023-08-14 12:08:55,MDMS,,Low,MDMS Related,Any Other,Other,Open,2023-08-24 12:08:55,
+409,1000000101,918868,2023-08-16 11:43:07,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Other,Resolved,2023-08-26 11:43:07,2023-08-18 10:20:41
+410,1000000101,856903,2023-08-16 16:34:39,MDMS,Rattnam Choubey,Low,MDMS Related,Any Other,Email,Resolved,2023-08-26 16:34:39,2023-08-16 17:08:42
+411,1000000101,489922,2023-08-16 21:20:16,MDMS,Gayatri kulkarni,Urgent,MDMS Related,PI| Middleware Issue,Email,Resolved,2023-08-17 03:20:16,2023-08-18 10:18:53
+412,1000000101,251215,2023-08-17 15:59:07,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Other,In Process,2023-08-27 15:59:07,
+413,100154933,701228,2023-08-17 17:07:22,MDMS,,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Open,2023-08-20 17:07:22,
+414,101836076,498233,2023-08-17 17:12:33,MDMS,,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Open,2023-08-20 17:12:33,
+415,1000000101,355027,2023-08-17 17:42:06,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Other,In Process,2023-08-27 17:42:06,
+416,101135650,890409,2023-08-17 23:43:42,MDMS,,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Open,2023-08-20 23:43:42,
+417,1000000106,963260,2023-08-18 09:27:13,MDMS,,Low,Infrastructure,Disk alert,Phone,Open,2023-08-28 09:27:13,
+418,1000000101,309224,2023-08-18 17:49:24,MDMS,,Medium,MDMS Related,BIRT Report,Email,Open,2023-08-21 17:49:24,
+419,1000000101,420530,2023-08-19 00:46:14,MDMS,,Low,MDMS Related,Any Other,Phone,Open,2023-08-29 00:46:14,
+420,1000000101,398782,2023-08-20 15:57:51,MDMS,,Low,MDMS Related,Any Other,Phone,Open,2023-08-30 15:57:51,
+421,101210186,896268,2023-08-20 17:02:54,MDMS,,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Open,2023-08-23 17:02:54,
+422,1000000101,319249,2023-08-21 15:01:45,MDMS,Rattnam Choubey,Low,MDMS Related,NVE Case,Phone,Resolved,2023-08-31 15:01:45,2023-08-29 16:55:33
+423,1000000101,641696,2023-08-21 17:38:13,MDMS,,Low,MDMS Related,Billing determinants,Phone,Open,2023-08-31 17:38:13,
+424,1000000101,732428,2023-08-21 17:47:27,MDMS,Rattnam Choubey,Low,MDMS Related,Any Other,Email,Resolved,2023-08-31 17:47:27,2023-08-29 17:03:55
+425,1000000101,585366,2023-08-22 16:34:40,MDMS,Gayatri kulkarni,Medium,Notification Related,Notifications (Welcome Message),Phone,Open,2023-08-25 16:34:40,
+426,1000000101,261322,2023-08-23 08:30:25,MDMS,,Low,MDMS Related,Any Other,Phone,Open,2023-09-02 08:30:25,
+427,1000000105,494172,2023-08-23 08:46:38,MDMS,Gayatri kulkarni,Low,Any other issue - Smart Meter,Other issue,Email,Resolved,2023-09-02 08:46:38,2023-08-29 14:35:46
+428,1000000101,187858,2023-08-23 09:54:15,MDMS,,Low,MDMS Related,Any Other,Phone,Open,2023-09-02 09:54:15,
+429,1000000101,530554,2023-08-23 11:01:52,MDMS,Gayatri kulkarni,Medium,MDMS Related,Any Other,Phone,Open,2023-08-26 11:01:52,
+430,1000000101,184881,2023-08-23 12:09:10,MDMS,,High,MDMS Related,UI Blank / Slowness,Phone,In Process,2023-08-24 12:09:10,
+431,1000000101,178718,2023-08-23 12:58:37,MDMS,Rattnam Choubey,Low,MDMS Related,NVE Case,Phone,Resolved,2023-09-02 12:58:37,2023-08-29 17:05:35
+432,100607061,443037,2023-08-23 13:15:33,MDMS,Rattnam Choubey,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Resolved,2023-08-26 13:15:33,2023-08-29 17:01:46
+433,1000000101,590906,2023-08-23 15:13:22,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Phone,Resolved,2023-09-02 15:13:22,2023-08-28 22:35:35
+434,1000000104,740655,2023-08-24 17:14:56,MDMS,,Low,WFM (Work force management),Any Other issue (WFM),Phone,Open,2023-09-03 17:14:56,
+435,1000000101,256700,2023-08-26 08:46:54,MDMS,Ajay chalke,Urgent,MDMS Related,Any Other,Phone,Open,2023-08-26 14:46:54,
+436,1000000101,559620,2023-08-26 12:14:36,MDMS,Durga Sri,Urgent,MDMS Related,Service Request related,Phone,Open,2023-08-26 18:14:36,
+437,1000000101,899196,2023-08-27 17:15:25,MDMS,Gayatri kulkarni,Medium,Notification Related,Notifications(Never received SMS,Other,Resolved,2023-08-30 17:15:25,2023-08-28 22:34:36
+438,1000000101,681655,2023-08-27 22:49:20,MDMS,Ajay chalke,Low,MDMS Related,Any Other,Phone,Open,2023-09-06 22:49:20,
+439,1000000108,800558,2023-08-28 11:00:57,MDMS,,Low,MDMS Related,Any Other,Email,Open,2023-09-07 11:00:57,
+440,400793941,372725,2023-08-29 17:57:41,MDMS,Rattnam Choubey,Low,Any other issue - Smart Meter,Other issue,Other,Resolved,2023-09-08 17:57:41,2023-08-29 18:03:47
+441,1000000101,326928,2023-08-30 12:24:26,MDMS,Rattnam Choubey,Low,MDMS Related,XML Correction / Deletion,Phone,Open,2023-09-09 12:24:26,
+442,400256369,370188,2023-08-31 11:14:06,MDMS,Rattnam Choubey,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Resolved,2023-09-03 11:14:06,2023-09-01 15:02:45
+443,102466837,922021,2023-08-31 15:33:21,MDMS,Rattnam Choubey,Medium,Excess/less Charge Deduction,Excess/less charge Deduction rel,Phone,Resolved,2023-09-03 15:33:21,2023-09-01 09:40:27
+444,1000000101,373612,2023-08-31 17:22:24,MDMS,Rattnam Choubey,Low,Any other issue - Smart Meter,Other issue,Email,Open,2023-09-10 17:22:24,
+445,101088780,303988,2023-09-01 17:25:30,MDMS,,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Open,2023-09-04 17:25:30,
+446,101560361,986144,2023-09-01 17:33:51,MDMS,,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Open,2023-09-04 17:33:51,
+447,100672785,522857,2023-09-02 19:04:49,MDMS,Gayatri kulkarni,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Open,2023-09-05 19:04:49,
+448,1000000101,215720,2023-09-03 21:51:56,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Other,In Process,2023-09-06 21:51:56,
+449,1000000101,915031,2023-09-04 08:45:33,MDMS,,Low,MDMS Related,Any Other,Phone,Open,2023-09-14 08:45:33,
+450,1000000101,108460,2023-09-04 14:43:18,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Phone,In Process,2023-09-14 14:43:18,
+451,101174192,592606,2023-09-04 16:07:45,MDMS,,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Open,2023-09-07 16:07:45,
+452,1000000101,659727,2023-09-05 08:35:30,MDMS,,Low,MDMS Related,Any Other,Phone,Open,2023-09-15 08:35:30,
+453,1000000101,852702,2023-09-05 14:58:36,MDMS,Rattnam Choubey,Low,MDMS Related,Any Other,Email,Resolved,2023-09-15 14:58:36,2023-09-18 11:08:28
+454,1000000106,661969,2023-09-08 09:38:36,MDMS,,Low,Infrastructure,Disk alert,Phone,In Process,2023-09-18 09:38:36,
+455,1000000101,616134,2023-09-08 13:13:33,MDMS,Rattnam Choubey,Low,MDMS Related,Any Other,Email,Resolved,2023-09-18 13:13:33,2023-09-14 14:03:28
+456,1000000107,413729,2023-09-12 13:10:21,MDMS,,Medium,Excess/less Charge Deduction,Excess/less charge Deduction rel,Other,Open,2023-09-15 13:10:21,
+457,1000000101,856171,2023-09-13 00:17:45,MDMS,,Low,MDMS Related,Any Other,Phone,Open,2023-09-23 00:17:45,
+458,102048084,826827,2023-09-13 01:08:03,MDMS,Rattnam Choubey,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Resolved,2023-09-16 01:08:03,2023-09-14 14:02:56
+459,101101415,629726,2023-09-13 01:27:38,MDMS,,Medium,Excess/less Consumption,Charge Calculation/Consumption,Phone,Open,2023-09-16 01:27:38,
+460,1000000107,935805,2023-09-13 12:34:44,MDMS,,Medium,MDMS Related,BIRT Report,Other,Open,2023-09-16 12:34:44,
+461,1000000101,488656,2023-09-14 12:33:31,MDMS,Rattnam Choubey,Low,MDMS Related,Any Other,Phone,In Process,2023-09-24 12:33:31,
+462,1000000101,337166,2023-09-14 16:50:07,MDMS,Rohit Dayal,Low,MDMS Related,UI Blank / Slowness,Phone,In Process,2023-09-24 16:50:07,
+463,1000000107,350131,2023-09-18 10:24:02,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Other,Open,2023-09-21 10:24:02,
+464,1000000101,376256,2023-09-18 11:20:26,MDMS,,Medium,MDMS Related,BIRT Report,Phone,Open,2023-09-21 11:20:26,
+465,1000000101,638476,2023-09-18 12:16:07,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Phone,Open,2023-09-28 12:16:07,
+466,1000000101,524972,2023-09-18 17:59:01,MDMS,,Urgent,MDMS Related,Service Request related,Phone,Open,2023-09-18 23:59:01,
+467,1000000101,266227,2023-09-20 16:34:22,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Phone,Open,2023-09-23 16:34:22,
+468,1000000101,725864,2023-09-20 17:02:20,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Phone,In Process,2023-09-23 17:02:20,
+469,1000000101,727007,2023-09-21 09:26:21,MDMS,,Low,MDMS Related,Any Other,Phone,Open,2023-10-01 09:26:21,
+470,1000000101,102239,2023-09-22 09:00:19,MDMS,Ajay chalke,Low,MDMS Related,Any Other,Phone,Open,2023-10-02 09:00:19,
+471,1000000101,927848,2023-09-22 17:50:49,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Phone,In Process,2023-09-25 17:50:49,
+472,1000000101,374511,2023-09-23 12:43:59,MDMS,Girdhar Tripathi,Low,MDMS Related,Any Other,Phone,In Process,2023-10-03 12:43:59,
+473,1000000101,633022,2023-09-24 08:51:28,MDMS,Girdhar Tripathi,Medium,MDMS Related,BIRT Report,Phone,In Process,2023-09-27 08:51:28,
+474,1000000101,690169,2023-09-25 11:08:18,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Phone,In Process,2023-09-28 11:08:18,
+475,100788024,649649,2023-09-25 11:45:27,MDMS,Rattnam Choubey,Low,MDMS Related,Billing determinants,Email,In Process,2023-10-05 11:45:27,
+476,1000000101,709052,2023-09-26 13:04:32,MDMS,Rattnam Choubey,Medium,Excess/less Charge Deduction,Excess/less charge Deduction rel,Email,Open,2023-09-29 13:04:32,
+477,101016575,485638,2023-09-26 17:30:05,MDMS,Rattnam Choubey,Low,MDMS Related,Any Other,Email,Open,2023-10-06 17:30:05,
+478,1000000101,281086,2023-09-29 17:46:55,MDMS,Gayatri kulkarni,Medium,Excess/less Charge Deduction,Excess/less charge Deduction rel,Phone,In Process,2023-10-02 17:46:55,
+479,1000000101,251726,2023-09-30 12:08:14,MDMS,Gayatri kulkarni,Low,MDMS Related,Any Other,Email,Open,2023-10-10 12:08:14,
+480,1000000101,557952,2023-09-30 12:25:45,MDMS,Gayatri kulkarni,High,MDMS Related,Slow RC/DC,Other,Open,2023-10-01 12:25:45,
+481,1000000107,951064,2023-10-04 11:38:18,MDMS,Gayatri kulkarni,Medium,MDMS Related,BIRT Report,Other,In Process,2023-10-07 11:38:18,
+482,1000000101,598636,2023-10-06 18:18:53,MDMS,Gayatri kulkarni,Urgent,MDMS Related,Service Request related,Phone,In Process,2023-10-07 00:18:53,

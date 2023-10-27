@@ -527,7 +527,7 @@ def load_dropdown_analysis(option_year,option_issue_type):
     # year wise total status
 
     #delay
-    
+
     ticket_hist= ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type) & ticket_df['Status'].isin(option_status)].groupby(['Category','Priority'])['dealay_days'].count()
     
     ticket_hist=pd.DataFrame(ticket_hist)
