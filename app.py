@@ -478,23 +478,20 @@ def load_dropdown_analysis(option_year,option_issue_type):
         option_status = st.multiselect('select status',ticket_df['Status'].unique().tolist())
 # stacked bar chart   drop down bases
 
+
     qtr_wise_priority_issue_stacked_bar_chart=ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type) & ticket_df['Status'].isin(option_status)].groupby(['year','yr_qtr','Priority'])['Ticket No'].count()
     qtr_wise_priority_issue_stacked_bar_chart=pd.DataFrame(qtr_wise_priority_issue_stacked_bar_chart)
     qtr_wise_priority_issue_stacked_bar_chart=qtr_wise_priority_issue_stacked_bar_chart.reset_index()
-   
+
     fig = px.bar(qtr_wise_priority_issue_stacked_bar_chart, x='yr_qtr', y='Ticket No', color='Priority',
                 labels={'Ticket No': 'Category Value'},
                 title='Priority stacked Bar Chart ')
     
+
     # Add hover data for tooltips
     fig.update_traces(texttemplate='%{y}', textposition='outside')
-
-    # Display the chart in Streamlit
+   #Display the chart in Streamlit
     st.plotly_chart(fig)
-
-
-
-
  #***********************************************************************************************
     # stacked bar chart status wise
 
@@ -529,6 +526,7 @@ def load_dropdown_analysis(option_year,option_issue_type):
     delay_day_count_category_wise=ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type)].groupby('Category')['dealay_days'].count()
     # year wise total status
 
+    #delay
     
     ticket_hist= ticket_df[ticket_df['year'].isin(option_year) & ticket_df['Priority'].isin(option_priority) & ticket_df['Issue Type'].isin(option_issue_type) & ticket_df['Status'].isin(option_status)].groupby(['Category','Priority'])['dealay_days'].count()
     
@@ -628,9 +626,9 @@ ticket_df['Year_new'] = ticket_df['Year_new'].dt.year
 # Extract the quarter and create a new column
 ticket_df['Quarter'] = ticket_df['Date / Time'].dt.quarter
 # Create a custom function to format the year and quarter
-
+ticket_df['Year_new_modification']=ticket_df['Year_new'].astype(str).str[-2:]
 def format_year_quarter(row):
-    return f"{row['Year_new']}-Q{row['Quarter']}"
+    return f"{row['Year_new_modification']}-Q{row['Quarter']}"
 
 # Apply the custom function to create the 'YearQuarter' column
 ticket_df['yr_qtr'] = ticket_df.apply(format_year_quarter, axis=1)
